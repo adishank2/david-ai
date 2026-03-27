@@ -1,0 +1,99 @@
+2026-03-18 10:13:25 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-18 10:21:05 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-18 10:22:08 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-18 10:46:12 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-18 10:46:13 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-18 10:46:13 - core.assistant - INFO - Loading plugins...
+2026-03-18 10:46:13 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-18 10:46:13 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-18 10:46:13 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-18 10:46:13 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-18 10:46:13 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-18 10:46:13 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-18 10:46:13 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-18 10:46:13 - voice.stt - INFO - Loading Whisper model...
+2026-03-18 10:46:14 - voice.stt - INFO - Whisper model ready
+2026-03-18 10:46:14 - core.assistant - INFO - Whisper model ready
+2026-03-18 10:46:14 - core.assistant - INFO - David AI started successfully
+2026-03-18 10:46:14 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-18 10:57:37 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-18 10:57:37 - core.assistant - INFO - User input: hey david
+2026-03-18 10:57:46 - core.assistant - DEBUG - Prompt length: 6117 chars
+2026-03-18 10:57:46 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-18 10:57:49 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-18 10:57:49 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-18 10:57:49 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-18 10:57:53 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-18 10:57:53 - voice.tts - DEBUG - Speaking (Cloud): Bilkul! What's new with you? Want to talk about space or som
+2026-03-18 10:57:53 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-18 10:58:18 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-18 10:58:18 - voice.stt - DEBUG - Web text command received: Hey David Open Chrome
+2026-03-18 10:58:18 - core.assistant - INFO - User input: hey david open chrome
+2026-03-18 10:58:20 - core.assistant - DEBUG - Prompt length: 5877 chars
+2026-03-18 10:58:20 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-18 10:58:23 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-18 10:58:23 - core.assistant - DEBUG - LLM raw response: {"intent": "open_app", "app": "chrome"}
+2026-03-18 10:58:23 - actions.executor - INFO - Executing intent: open_app
+2026-03-18 10:58:23 - actions.executor - INFO - Opening application: chrome
+2026-03-18 10:58:23 - voice.tts - DEBUG - Speaking (Cloud): Got it! Opening Chrome.
+2026-03-18 10:58:23 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-18 10:58:30 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-18 13:34:44 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-18 13:34:45 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-18 13:34:45 - core.assistant - INFO - Loading plugins...
+2026-03-18 13:34:45 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-18 13:34:45 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-18 13:34:45 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-18 13:34:45 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-18 13:34:45 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-18 13:34:45 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-18 13:34:45 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-18 13:34:45 - voice.stt - INFO - Loading Whisper model...
+2026-03-18 13:34:47 - voice.stt - INFO - Whisper model ready
+2026-03-18 13:34:47 - core.assistant - INFO - Whisper model ready
+2026-03-18 13:34:47 - core.assistant - INFO - David AI started successfully
+2026-03-18 13:34:47 - core.assistant - INFO - Starting in web command-queue mode

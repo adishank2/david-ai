@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at center, #0a1118 0%, #000000 100%);
+  background-size: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Optional faint grid lines for the background */
+.App-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ================== JARVIS HUD STYLES ================== */
+
+/* Container wrapper to keep everything perfectly aligned taking full screen */
+.hud-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #00ffe1;
+  font-family: 'Share Tech Mono', 'Courier New', monospace;
+  position: relative;
+  z-index: 20;
+}
+
+/* TOP HEADER */
+.hud-header {
+  text-align: center;
+  margin-top: 20px;
+}
+.hud-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  margin: 0;
+  line-height: 1;
+  color: #ffffff;
+  text-shadow: 0 0 15px rgba(0, 255, 225, 0.8), 0 0 30px rgba(0, 255, 225, 0.4);
+}
+.hud-subtitle {
+  font-size: 14px;
+  letter-spacing: 0.35em;
+  color: rgba(0, 255, 225, 0.8);
+  margin-top: 5px;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px rgba(0, 255, 225, 0.3);
+}
+
+/* MIDDLE BLOCK */
+.hud-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px; /* Shifted up further */
+}
+
+/* TACTICAL BUTTONS array */
+.hud-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.hud-btn {
+  background: transparent;
+  color: rgba(0, 255, 225, 0.85);
+  font-family: 'Orbitron', 'Share Tech Mono', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  padding: 12px 30px;
+  border: 1px solid rgba(0, 255, 225, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: inset 0 0 15px rgba(0, 255, 225, 0.1);
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+}
+.hud-btn:hover, .hud-btn.active {
+  background: rgba(0, 255, 225, 0.1);
+  border-color: rgba(0, 255, 225, 0.8);
+  box-shadow: 0 0 20px rgba(0, 255, 225, 0.3), inset 0 0 15px rgba(0, 255, 225, 0.2);
+  color: #fff;
+  text-shadow: 0 0 8px rgba(0, 255, 225, 0.8);
+}
+
+.hud-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+  background: rgba(255, 165, 0, 0.05);
+  border-color: rgba(255, 165, 0, 0.3);
+  color: #ffa500;
+  animation: pulse-sync 1.5s infinite alternate;
+}
+
+@keyframes pulse-sync {
+  from { box-shadow: 0 0 5px rgba(255, 165, 0, 0.2); }
+  to { box-shadow: 0 0 15px rgba(255, 165, 0, 0.5); }
+}
+
+/* FOOTER STATUS BAR */
+.hud-footer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 255, 225, 0.2);
+  padding-top: 10px;
+  font-family: 'Share Tech Mono', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+}
+.hud-stat-box {
+  display: flex;
+  gap: 10px;
+}
+.hud-stat-label {
+  color: rgba(0, 255, 225, 0.6);
+}
+.hud-stat-value {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 255, 225, 0.5);
+}

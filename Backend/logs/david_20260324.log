@@ -1,0 +1,308 @@
+2026-03-24 11:21:02 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-24 11:21:05 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-24 11:21:05 - core.assistant - INFO - Loading plugins...
+2026-03-24 11:21:05 - plugins.manager - INFO - Discovered 14 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'document_reader_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'screen_recorder_plugin', 'system_monitor', 'timer_plugin', 'vision_plugin', 'weather', 'window_control']
+2026-03-24 11:21:05 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-24 11:21:05 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder', 'export_calendar', 'sync_calendar'])
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: DocumentReaderPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: DocumentReaderPlugin (intents: ['read_document', 'summarize_document'])
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info', 'edit_file', 'append_file'])
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: ScreenRecorderPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: ScreenRecorderPlugin (intents: ['start_recording', 'stop_recording'])
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-24 11:21:05 - plugins.base - INFO - Plugin loaded: TimerPlugin
+2026-03-24 11:21:05 - plugins.manager - INFO - Loaded plugin: TimerPlugin (intents: ['set_timer', 'set_alarm', 'list_timers', 'cancel_timer'])
+2026-03-24 11:21:06 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-24 11:21:06 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-24 11:21:06 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-24 11:21:06 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-24 11:21:06 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-24 11:21:06 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-24 11:21:06 - plugins.manager - INFO - Loaded 14/14 plugins
+2026-03-24 11:21:06 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-24 11:21:06 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-24 11:21:06 - voice.stt - INFO - Loading Whisper model...
+2026-03-24 11:21:07 - voice.stt - INFO - Whisper model ready
+2026-03-24 11:21:07 - core.assistant - INFO - Whisper model ready
+2026-03-24 11:21:07 - core.proactive - INFO - Proactive Agent started.
+2026-03-24 11:21:08 - core.indexer - INFO - David-Indexer started. Target folders: ['C:\\Users\\disha\\Documents', 'D:\\project\\David Ai\\Backend']
+2026-03-24 11:21:08 - core.assistant - INFO - Local knowledge indexer (RAG) agent started.
+2026-03-24 11:21:08 - core.habits - INFO - Smart Suggestion Agent started.
+2026-03-24 11:21:08 - core.assistant - INFO - Smart Suggestion Agent started.
+2026-03-24 11:21:08 - core.assistant - INFO - David AI started successfully
+2026-03-24 11:21:08 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-24 11:21:18 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-24 11:21:21 - core.rag_manager - INFO - RAG Manager initialized. Collection: david_knowledge
+2026-03-24 11:21:22 - core.rag_manager - DEBUG - Added document 8254354870913851536 to RAG in 7 chunks.
+2026-03-24 11:21:22 - core.rag_manager - DEBUG - Added document 9103515151811074712 to RAG in 5 chunks.
+2026-03-24 11:21:22 - core.rag_manager - DEBUG - Added document 4099958263116258848 to RAG in 2 chunks.
+2026-03-24 11:21:22 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-24 11:35:09 - core.face_auth - INFO - Face registered for dishankagrawal05@gmail.com
+2026-03-24 11:35:17 - core.face_auth - INFO - Face verification for dishankagrawal05@gmail.com: similarity=0.968
+2026-03-24 11:36:02 - core.face_auth - INFO - Face registered for chanchalnagwani2@gmail.com
+2026-03-24 11:36:14 - core.face_auth - INFO - Face verification for chanchalnagwani2@gmail.com: similarity=0.955
+2026-03-24 11:37:10 - core.face_auth - INFO - Face verification for dishankagrawal05@gmail.com: similarity=0.886
+2026-03-24 12:06:02 - core.assistant - INFO - Cleaning up resources...
+2026-03-24 12:06:02 - core.context - INFO - Context saved to D:\project\David Ai\Backend\context.json
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: AutomationPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: BrowserPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: CalendarPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: ClipboardPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: DocumentReaderPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: EmailPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: FileOpsPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: ScreenshotPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: ScreenRecorderPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: SystemMonitorPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: TimerPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: Vision
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: WeatherPlugin
+2026-03-24 12:06:02 - plugins.base - INFO - Plugin unloaded: WindowControlPlugin
+2026-03-24 12:06:02 - plugins.manager - INFO - All plugins unloaded
+2026-03-24 12:06:23 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-24 12:06:24 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-24 12:06:24 - core.assistant - INFO - Loading plugins...
+2026-03-24 12:06:24 - plugins.manager - INFO - Discovered 14 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'document_reader_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'screen_recorder_plugin', 'system_monitor', 'timer_plugin', 'vision_plugin', 'weather', 'window_control']
+2026-03-24 12:06:24 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-24 12:06:24 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder', 'export_calendar', 'sync_calendar'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: DocumentReaderPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: DocumentReaderPlugin (intents: ['read_document', 'summarize_document'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info', 'edit_file', 'append_file'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: ScreenRecorderPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: ScreenRecorderPlugin (intents: ['start_recording', 'stop_recording'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: TimerPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: TimerPlugin (intents: ['set_timer', 'set_alarm', 'list_timers', 'cancel_timer'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-24 12:06:24 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-24 12:06:24 - plugins.manager - INFO - Loaded 14/14 plugins
+2026-03-24 12:06:24 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-24 12:06:24 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-24 12:06:24 - voice.stt - INFO - Loading Whisper model...
+2026-03-24 12:06:26 - voice.stt - INFO - Whisper model ready
+2026-03-24 12:06:26 - core.assistant - INFO - Whisper model ready
+2026-03-24 12:06:26 - core.proactive - INFO - Proactive Agent started.
+2026-03-24 12:06:26 - core.indexer - INFO - David-Indexer started. Target folders: ['D:\\project\\David Ai\\Backend', 'C:\\Users\\disha\\Documents']
+2026-03-24 12:06:26 - core.assistant - INFO - Local knowledge indexer (RAG) agent started.
+2026-03-24 12:06:26 - core.habits - INFO - Smart Suggestion Agent started.
+2026-03-24 12:06:26 - core.assistant - INFO - Smart Suggestion Agent started.
+2026-03-24 12:06:26 - core.workflows - INFO - Workflow Scheduler started.
+2026-03-24 12:06:26 - core.assistant - INFO - Workflow Scheduler started.
+2026-03-24 12:06:26 - core.assistant - INFO - David AI started successfully
+2026-03-24 12:06:26 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-24 12:06:36 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-24 12:06:36 - core.rag_manager - INFO - RAG Manager initialized. Collection: david_knowledge
+2026-03-24 12:06:37 - core.rag_manager - DEBUG - Added document 8179391639586606920 to RAG in 7 chunks.
+2026-03-24 12:06:38 - core.rag_manager - DEBUG - Added document 4296832997973258892 to RAG in 5 chunks.
+2026-03-24 12:06:38 - core.rag_manager - DEBUG - Added document 3363386695905903585 to RAG in 2 chunks.
+2026-03-24 12:06:38 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-24 12:08:43 - core.workflows - INFO - Workflow created: Morning Routine (2 steps)
+2026-03-24 12:22:47 - core.assistant - INFO - Cleaning up resources...
+2026-03-24 12:22:47 - core.context - INFO - Context saved to D:\project\David Ai\Backend\context.json
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: AutomationPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: BrowserPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: CalendarPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: ClipboardPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: DocumentReaderPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: EmailPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: FileOpsPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: ScreenshotPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: ScreenRecorderPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: SystemMonitorPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: TimerPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: Vision
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: WeatherPlugin
+2026-03-24 12:22:47 - plugins.base - INFO - Plugin unloaded: WindowControlPlugin
+2026-03-24 12:22:47 - plugins.manager - INFO - All plugins unloaded
+2026-03-24 12:23:07 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-24 12:23:08 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-24 12:23:08 - core.assistant - INFO - Loading plugins...
+2026-03-24 12:23:08 - plugins.manager - INFO - Discovered 14 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'document_reader_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'screen_recorder_plugin', 'system_monitor', 'timer_plugin', 'vision_plugin', 'weather', 'window_control']
+2026-03-24 12:23:08 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-24 12:23:08 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder', 'export_calendar', 'sync_calendar'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: DocumentReaderPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: DocumentReaderPlugin (intents: ['read_document', 'summarize_document'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info', 'edit_file', 'append_file'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: ScreenRecorderPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: ScreenRecorderPlugin (intents: ['start_recording', 'stop_recording'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: TimerPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: TimerPlugin (intents: ['set_timer', 'set_alarm', 'list_timers', 'cancel_timer'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-24 12:23:08 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-24 12:23:08 - plugins.manager - INFO - Loaded 14/14 plugins
+2026-03-24 12:23:08 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-24 12:23:08 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-24 12:23:08 - voice.stt - INFO - Loading Whisper model...
+2026-03-24 12:23:10 - voice.stt - INFO - Whisper model ready
+2026-03-24 12:23:10 - core.assistant - INFO - Whisper model ready
+2026-03-24 12:23:10 - core.proactive - INFO - Proactive Agent started.
+2026-03-24 12:23:10 - core.indexer - INFO - David-Indexer started. Target folders: ['C:\\Users\\disha\\Documents', 'D:\\project\\David Ai\\Backend']
+2026-03-24 12:23:10 - core.assistant - INFO - Local knowledge indexer (RAG) agent started.
+2026-03-24 12:23:10 - core.habits - INFO - Smart Suggestion Agent started.
+2026-03-24 12:23:10 - core.assistant - INFO - Smart Suggestion Agent started.
+2026-03-24 12:23:10 - core.workflows - INFO - Loaded 1 workflows.
+2026-03-24 12:23:10 - core.workflows - INFO - Workflow Scheduler started.
+2026-03-24 12:23:10 - core.assistant - INFO - Workflow Scheduler started.
+2026-03-24 12:23:10 - core.assistant - INFO - David AI started successfully
+2026-03-24 12:23:10 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-24 12:23:20 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-24 12:23:20 - core.rag_manager - INFO - RAG Manager initialized. Collection: david_knowledge
+2026-03-24 12:23:21 - core.rag_manager - DEBUG - Added document 7208950601682712576 to RAG in 7 chunks.
+2026-03-24 12:23:21 - core.rag_manager - DEBUG - Added document 4978890913561369957 to RAG in 5 chunks.
+2026-03-24 12:23:22 - core.rag_manager - DEBUG - Added document 8188952683446359348 to RAG in 2 chunks.
+2026-03-24 12:23:22 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-24 13:28:19 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-24 13:28:20 - core.rag_manager - DEBUG - Added document 7208950601682712576 to RAG in 7 chunks.
+2026-03-24 13:28:21 - core.rag_manager - DEBUG - Added document 4978890913561369957 to RAG in 5 chunks.
+2026-03-24 13:28:21 - core.rag_manager - DEBUG - Added document 8188952683446359348 to RAG in 2 chunks.
+2026-03-24 13:28:21 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-24 13:43:07 - voice.stt - DEBUG - Web text command received: 75%
+2026-03-24 13:43:07 - core.assistant - INFO - User input: 75%
+2026-03-24 13:43:16 - core.assistant - DEBUG - Prompt length: 6488 chars
+2026-03-24 13:43:16 - ai.llm - DEBUG - Local context found in RAG database. Appending to prompt.
+2026-03-24 13:43:16 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-24 13:43:21 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-24 13:43:21 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-24 13:43:21 - ai.llm - DEBUG - Local context found in RAG database. Appending to prompt.
+2026-03-24 13:43:21 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-24 13:43:26 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-24 13:43:26 - voice.tts - DEBUG - Speaking (Cloud): Haan bhai, main samajh nahi aaya ki aap kya kehna chahte hai
+2026-03-24 13:43:26 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-24 13:44:01 - voice.tts - ERROR - Cloud TTS playback failed: [WinError 4551] An Application Control policy has blocked this file
+2026-03-24 13:44:01 - voice.tts - WARNING - Cloud TTS failed, falling back to local: [WinError 4551] An Application Control policy has blocked this file
+2026-03-24 13:44:01 - voice.tts_local - INFO - Speaking (PowerShell): Haan bhai, main samajh nahi aaya ki aap kya kehna ...
+2026-03-24 13:44:01 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-24 13:48:30 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-24 13:48:54 - voice.tts_local - INFO - Stopping TTS playback...
+2026-03-24 13:48:54 - voice.stt - DEBUG - Web text command received: Have the swarm write a report on the history of neural networks
+2026-03-24 13:48:54 - core.assistant - INFO - User input: have the swarm write a report on the history of neural networks
+2026-03-24 13:49:00 - core.assistant - DEBUG - Prompt length: 6599 chars
+2026-03-24 13:49:01 - ai.llm - DEBUG - Local context found in RAG database. Appending to prompt.
+2026-03-24 13:49:01 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-24 13:49:05 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-24 13:49:05 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-24 13:49:06 - ai.llm - DEBUG - Local context found in RAG database. Appending to prompt.
+2026-03-24 13:49:06 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-24 13:49:13 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-24 13:49:13 - voice.tts - DEBUG - Speaking (Cloud): Bilkul! Aapne swarn ko kaha hai ki David AI ek secure aur pr
+2026-03-24 13:49:13 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-24 13:50:13 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-24 13:56:25 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-24 14:01:59 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-24 14:04:11 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-24 14:04:12 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-24 14:04:12 - core.assistant - INFO - Loading plugins...
+2026-03-24 14:04:12 - plugins.manager - INFO - Discovered 16 plugins: ['automation', 'autopilot_plugin', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'document_reader_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'screen_recorder_plugin', 'swarm_plugin', 'system_monitor', 'timer_plugin', 'vision_plugin', 'weather', 'window_control']
+2026-03-24 14:04:12 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: AutoPilotPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: AutoPilotPlugin (intents: ['autopilot_type', 'autopilot_key', 'autopilot_scroll'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-24 14:04:12 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder', 'export_calendar', 'sync_calendar'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: DocumentReaderPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: DocumentReaderPlugin (intents: ['read_document', 'summarize_document'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info', 'edit_file', 'append_file'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: ScreenRecorderPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: ScreenRecorderPlugin (intents: ['start_recording', 'stop_recording'])
+2026-03-24 14:04:12 - plugins.manager - ERROR - Failed to load plugin swarm_plugin: cannot import name 'generate_response' from 'ai.llm' (D:\project\David Ai\Backend\ai\llm.py)
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: TimerPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: TimerPlugin (intents: ['set_timer', 'set_alarm', 'list_timers', 'cancel_timer'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-24 14:04:12 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-24 14:04:12 - plugins.manager - INFO - Loaded 15/16 plugins
+2026-03-24 14:04:12 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-24 14:04:12 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-24 14:04:12 - voice.stt - INFO - Loading Whisper model...
+2026-03-24 14:04:13 - voice.stt - INFO - Whisper model ready
+2026-03-24 14:04:13 - core.assistant - INFO - Whisper model ready
+2026-03-24 14:04:13 - core.proactive - INFO - Proactive Agent started.
+2026-03-24 14:04:15 - core.indexer - INFO - David-Indexer started. Target folders: ['C:\\Users\\disha\\Documents', 'D:\\project\\David Ai\\Backend']
+2026-03-24 14:04:15 - core.assistant - INFO - Local knowledge indexer (RAG) agent started.
+2026-03-24 14:04:15 - core.habits - INFO - Smart Suggestion Agent started.
+2026-03-24 14:04:15 - core.assistant - INFO - Smart Suggestion Agent started.
+2026-03-24 14:04:15 - core.workflows - INFO - Loaded 1 workflows.
+2026-03-24 14:04:15 - core.workflows - INFO - Workflow Scheduler started.
+2026-03-24 14:04:15 - core.assistant - INFO - Workflow Scheduler started.
+2026-03-24 14:04:15 - core.assistant - INFO - David AI started successfully
+2026-03-24 14:04:15 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-24 14:04:25 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-24 14:04:25 - core.rag_manager - INFO - RAG Manager initialized. Collection: david_knowledge
+2026-03-24 14:04:26 - core.rag_manager - DEBUG - Added document 4243892678507402626 to RAG in 7 chunks.
+2026-03-24 14:04:26 - core.rag_manager - DEBUG - Added document 3971219095718668762 to RAG in 5 chunks.
+2026-03-24 14:04:26 - core.rag_manager - DEBUG - Added document 3071404325100980267 to RAG in 2 chunks.
+2026-03-24 14:04:26 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-24 14:05:15 - core.habits - INFO - Loaded 2 habit records.

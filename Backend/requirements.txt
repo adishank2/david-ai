@@ -1,0 +1,93 @@
+# Audio Processing
+sounddevice>=0.4.6
+numpy>=1.24.0
+scipy>=1.10.0
+PyAudio>=0.2.13
+
+# AI/ML
+openai-whisper>=20231117
+requests>=2.31.0
+ollama>=0.1.7
+
+# Web Server (FastAPI backend)
+fastapi>=0.110.0
+uvicorn>=0.27.0
+pywhatkit>=5.4
+
+# Authentication & Security
+passlib[bcrypt]>=1.7.4
+pydantic>=2.0.0
+email-validator>=2.0.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+
+# Text-to-Speech
+edge-tts>=6.1.9
+
+# CLI/UI
+rich>=13.7.0
+
+# Wake Word Detection
+pvporcupine>=2.2.0
+
+# Voice Activity Detection (Optional - requires C++ build tools on Windows)
+# If installation fails, David will use simple energy-based VAD instead
+# To install: pip install webrtcvad
+# webrtcvad>=2.0.10
+
+# Web Search
+duckduckgo-search>=4.1.0
+
+# Date/Time Parsing
+python-dateutil>=2.8.2
+
+# System Monitoring
+psutil>=5.9.0
+
+# Optional: Alternative volume control (fallback for nircmd)
+# pycaw>=20230407
+
+# Advanced Features Dependencies
+# Clipboard Operations
+pyperclip>=1.8.2
+
+# Screenshots and OCR
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# Browser Automation
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Window Control
+pygetwindow>=0.0.9
+
+# Email Integration
+secure-smtplib>=0.1.1
+
+# Task Scheduling
+schedule>=1.2.0
+
+# Secure Credentials
+cryptography>=41.0.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Document Reading
+PyPDF2>=3.0.0
+python-docx>=1.0.0
+openpyxl>=3.1.0
+
+# Screen Recording
+opencv-python>=4.8.0
+
+# Vector Database and RAG
+chromadb>=0.4.24
+langchain-text-splitters>=0.0.1
+
+# Face Recognition & Emotion Detection
+deepface>=0.0.89
+tf-keras>=2.16.0
+
+

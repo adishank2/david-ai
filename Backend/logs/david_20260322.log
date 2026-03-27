@@ -1,0 +1,281 @@
+2026-03-22 13:07:33 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-22 13:07:35 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-22 13:07:35 - core.assistant - INFO - Loading plugins...
+2026-03-22 13:07:35 - plugins.manager - INFO - Discovered 14 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'document_reader_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'screen_recorder_plugin', 'system_monitor', 'timer_plugin', 'vision_plugin', 'weather', 'window_control']
+2026-03-22 13:07:35 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-22 13:07:35 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-22 13:07:35 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-22 13:07:35 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-22 13:07:35 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-22 13:07:35 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-22 13:07:35 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-22 13:07:35 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder', 'export_calendar', 'sync_calendar'])
+2026-03-22 13:07:35 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-22 13:07:35 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-22 13:07:35 - plugins.base - INFO - Plugin loaded: DocumentReaderPlugin
+2026-03-22 13:07:35 - plugins.manager - INFO - Loaded plugin: DocumentReaderPlugin (intents: ['read_document', 'summarize_document'])
+2026-03-22 13:07:35 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-22 13:07:35 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-22 13:07:35 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-22 13:07:35 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info', 'edit_file', 'append_file'])
+2026-03-22 13:07:35 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-22 13:07:35 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-22 13:07:35 - plugins.base - INFO - Plugin loaded: ScreenRecorderPlugin
+2026-03-22 13:07:35 - plugins.manager - INFO - Loaded plugin: ScreenRecorderPlugin (intents: ['start_recording', 'stop_recording'])
+2026-03-22 13:07:36 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-22 13:07:36 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-22 13:07:36 - plugins.base - INFO - Plugin loaded: TimerPlugin
+2026-03-22 13:07:36 - plugins.manager - INFO - Loaded plugin: TimerPlugin (intents: ['set_timer', 'set_alarm', 'list_timers', 'cancel_timer'])
+2026-03-22 13:07:37 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-22 13:07:37 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-22 13:07:37 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-22 13:07:37 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-22 13:07:37 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-22 13:07:37 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-22 13:07:37 - plugins.manager - INFO - Loaded 14/14 plugins
+2026-03-22 13:07:37 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-22 13:07:37 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-22 13:07:37 - voice.stt - INFO - Loading Whisper model...
+2026-03-22 13:07:38 - voice.stt - INFO - Whisper model ready
+2026-03-22 13:07:38 - core.assistant - INFO - Whisper model ready
+2026-03-22 13:07:38 - core.proactive - INFO - Proactive Agent started.
+2026-03-22 13:07:38 - core.assistant - INFO - David AI started successfully
+2026-03-22 13:07:38 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-22 13:10:03 - utils.email_auth - INFO - OTP email sent to dishankagrawal05@gmail.com
+2026-03-22 13:12:31 - utils.email_auth - INFO - OTP email sent to dishankagrawal05@gmail.com
+2026-03-22 13:13:15 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-22 13:13:15 - core.assistant - INFO - User input: hey david
+2026-03-22 13:13:24 - core.assistant - DEBUG - Prompt length: 7106 chars
+2026-03-22 13:13:24 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-22 13:13:29 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-22 13:13:29 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "open_app",
+  "app": "notepad"
+}
+2026-03-22 13:13:29 - actions.executor - INFO - Executing intent: open_app
+2026-03-22 13:13:29 - actions.executor - INFO - Opening application: notepad
+2026-03-22 13:13:29 - voice.tts - DEBUG - Speaking (Cloud): No problem! Opening Notepad.
+2026-03-22 13:13:29 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-22 13:14:02 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-22 13:29:35 - voice.stt - DEBUG - Web text command received: hello David
+2026-03-22 13:29:35 - core.assistant - INFO - User input: hello david
+2026-03-22 13:29:41 - core.assistant - DEBUG - Prompt length: 6812 chars
+2026-03-22 13:29:41 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-22 13:29:45 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-22 13:29:45 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-22 13:29:45 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-22 13:29:48 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-22 13:29:48 - voice.tts - DEBUG - Speaking (Cloud): Hey Dishank! What's up? Need some space talk or wanna chat a
+2026-03-22 13:29:48 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-22 13:30:07 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-22 13:50:13 - voice.stt - DEBUG - Web text command received: system status
+2026-03-22 13:50:13 - core.assistant - INFO - User input: system status
+2026-03-22 13:50:20 - core.assistant - DEBUG - Prompt length: 6858 chars
+2026-03-22 13:50:20 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-22 13:50:24 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-22 13:50:24 - core.assistant - DEBUG - LLM raw response: {"intent": "cpu_usage"}
+2026-03-22 13:50:24 - actions.validator - DEBUG - Accepting intent for plugin handling: cpu_usage
+2026-03-22 13:50:24 - plugins.manager - DEBUG - Executing plugin SystemMonitorPlugin for intent cpu_usage
+2026-03-22 13:50:25 - core.assistant - INFO - Plugin executed: {'intent': 'cpu_usage'}
+2026-03-22 13:50:25 - voice.tts - DEBUG - Speaking (Cloud): CPU usage is 87.8%
+2026-03-22 13:50:25 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-22 13:50:38 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-22 13:50:38 - voice.stt - DEBUG - Web text command received: show diagnostics
+2026-03-22 13:50:38 - core.assistant - INFO - User input: show diagnostics
+2026-03-22 13:50:39 - core.assistant - DEBUG - Prompt length: 6838 chars
+2026-03-22 13:50:39 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-22 13:50:42 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-22 13:50:42 - core.assistant - DEBUG - LLM raw response: {"intent": "system_status"}
+2026-03-22 13:50:42 - actions.validator - DEBUG - Accepting intent for plugin handling: system_status
+2026-03-22 13:50:42 - actions.executor - INFO - Executing intent: system_status
+2026-03-22 13:50:42 - actions.executor - WARNING - Unknown intent type: system_status
+2026-03-22 13:50:42 - voice.tts - DEBUG - Speaking (Cloud): I'm not sure what you mean.
+2026-03-22 13:50:42 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-22 13:50:48 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-22 13:51:25 - core.assistant - INFO - Cleaning up resources...
+2026-03-22 13:51:25 - core.context - INFO - Context saved to D:\project\David Ai\Backend\context.json
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: AutomationPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: BrowserPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: CalendarPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: ClipboardPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: DocumentReaderPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: EmailPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: FileOpsPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: ScreenshotPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: ScreenRecorderPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: SystemMonitorPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: TimerPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: Vision
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: WeatherPlugin
+2026-03-22 13:51:25 - plugins.base - INFO - Plugin unloaded: WindowControlPlugin
+2026-03-22 13:51:25 - plugins.manager - INFO - All plugins unloaded
+2026-03-22 13:52:23 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-22 13:52:24 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-22 13:52:24 - core.assistant - INFO - Loading plugins...
+2026-03-22 13:52:24 - plugins.manager - INFO - Discovered 14 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'document_reader_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'screen_recorder_plugin', 'system_monitor', 'timer_plugin', 'vision_plugin', 'weather', 'window_control']
+2026-03-22 13:52:24 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-22 13:52:24 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder', 'export_calendar', 'sync_calendar'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: DocumentReaderPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: DocumentReaderPlugin (intents: ['read_document', 'summarize_document'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info', 'edit_file', 'append_file'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: ScreenRecorderPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: ScreenRecorderPlugin (intents: ['start_recording', 'stop_recording'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: TimerPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: TimerPlugin (intents: ['set_timer', 'set_alarm', 'list_timers', 'cancel_timer'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-22 13:52:24 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-22 13:52:24 - plugins.manager - INFO - Loaded 14/14 plugins
+2026-03-22 13:52:24 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-22 13:52:24 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-22 13:52:24 - voice.stt - INFO - Loading Whisper model...
+2026-03-22 13:52:26 - voice.stt - INFO - Whisper model ready
+2026-03-22 13:52:26 - core.assistant - INFO - Whisper model ready
+2026-03-22 13:52:27 - core.proactive - INFO - Proactive Agent started.
+2026-03-22 13:52:28 - core.indexer - INFO - David-Indexer started. Target folders: ['D:\\project\\David Ai\\Backend', 'C:\\Users\\disha\\Documents']
+2026-03-22 13:52:28 - core.assistant - INFO - Local knowledge indexer (RAG) agent started.
+2026-03-22 13:52:28 - core.assistant - INFO - David AI started successfully
+2026-03-22 13:52:28 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-22 13:52:38 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-22 13:52:41 - core.rag_manager - INFO - RAG Manager initialized. Collection: david_knowledge
+2026-03-22 13:53:57 - core.rag_manager - DEBUG - Added document 6708385645006817811 to RAG in 7 chunks.
+2026-03-22 13:53:58 - core.rag_manager - DEBUG - Added document 198536314519142623 to RAG in 5 chunks.
+2026-03-22 13:53:58 - core.rag_manager - DEBUG - Added document 348284809476870167 to RAG in 2 chunks.
+2026-03-22 13:53:58 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-22 14:54:00 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-22 14:54:01 - core.rag_manager - DEBUG - Added document 6708385645006817811 to RAG in 7 chunks.
+2026-03-22 14:54:01 - core.rag_manager - DEBUG - Added document 198536314519142623 to RAG in 5 chunks.
+2026-03-22 14:54:01 - core.rag_manager - DEBUG - Added document 348284809476870167 to RAG in 2 chunks.
+2026-03-22 14:54:01 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-22 15:56:39 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-22 15:56:40 - core.rag_manager - DEBUG - Added document 6708385645006817811 to RAG in 7 chunks.
+2026-03-22 15:56:40 - core.rag_manager - DEBUG - Added document 198536314519142623 to RAG in 5 chunks.
+2026-03-22 15:56:41 - core.rag_manager - DEBUG - Added document 348284809476870167 to RAG in 2 chunks.
+2026-03-22 15:56:41 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-22 16:56:41 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-22 16:56:42 - core.rag_manager - DEBUG - Added document 6708385645006817811 to RAG in 7 chunks.
+2026-03-22 16:56:42 - core.rag_manager - DEBUG - Added document 198536314519142623 to RAG in 5 chunks.
+2026-03-22 16:56:42 - core.rag_manager - DEBUG - Added document 348284809476870167 to RAG in 2 chunks.
+2026-03-22 16:56:42 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-22 17:56:42 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-22 17:56:44 - core.rag_manager - DEBUG - Added document 6708385645006817811 to RAG in 7 chunks.
+2026-03-22 17:56:44 - core.rag_manager - DEBUG - Added document 198536314519142623 to RAG in 5 chunks.
+2026-03-22 17:56:45 - core.rag_manager - DEBUG - Added document 348284809476870167 to RAG in 2 chunks.
+2026-03-22 17:56:45 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-22 20:06:33 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-22 20:06:33 - core.rag_manager - DEBUG - Added document 6708385645006817811 to RAG in 7 chunks.
+2026-03-22 20:06:34 - core.rag_manager - DEBUG - Added document 198536314519142623 to RAG in 5 chunks.
+2026-03-22 20:06:34 - core.rag_manager - DEBUG - Added document 348284809476870167 to RAG in 2 chunks.
+2026-03-22 20:06:34 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-22 20:36:57 - core.indexer - INFO - David is scanning local knowledge...
+2026-03-22 20:36:58 - core.rag_manager - DEBUG - Added document 6708385645006817811 to RAG in 7 chunks.
+2026-03-22 20:36:58 - core.rag_manager - DEBUG - Added document 198536314519142623 to RAG in 5 chunks.
+2026-03-22 20:36:59 - core.rag_manager - DEBUG - Added document 348284809476870167 to RAG in 2 chunks.
+2026-03-22 20:36:59 - core.indexer - INFO - Scan complete. Indexed 3 new/updated documents.
+2026-03-22 20:37:12 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-22 20:37:12 - core.assistant - INFO - User input: hey david
+2026-03-22 20:37:18 - core.memory - ERROR - Embedding generation failed: llama runner process has terminated: error loading model: unable to allocate CUDA0 buffer (status code: 500)
+2026-03-22 20:37:18 - core.assistant - DEBUG - Prompt length: 6494 chars
+2026-03-22 20:37:18 - ai.llm - DEBUG - Local context found in RAG database. Appending to prompt.
+2026-03-22 20:37:18 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-22 20:37:35 - ai.llm - ERROR - LLM HTTP error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2026-03-22 20:37:35 - core.assistant - ERROR - Error processing command: LLM server error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 83, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\david_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system, temperature=0.0, num_predict=150)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 120, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+
+2026-03-22 20:37:35 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-22 20:37:35 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-22 20:37:50 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-22 20:37:50 - core.assistant - INFO - User input: hey david
+2026-03-22 20:38:05 - core.memory - ERROR - Embedding generation failed: llama runner process has terminated: error loading model: unable to allocate CUDA0 buffer (status code: 500)
+2026-03-22 20:38:05 - core.assistant - DEBUG - Prompt length: 6494 chars
+2026-03-22 20:38:06 - ai.llm - DEBUG - Local context found in RAG database. Appending to prompt.
+2026-03-22 20:38:06 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-22 20:38:20 - ai.llm - ERROR - LLM HTTP error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2026-03-22 20:38:20 - core.assistant - ERROR - Error processing command: LLM server error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 83, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\david_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system, temperature=0.0, num_predict=150)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 120, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+
+2026-03-22 20:38:20 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-22 20:38:20 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-22 20:38:30 - voice.stt - DEBUG - Web text command received: how are you
+2026-03-22 20:38:30 - core.assistant - INFO - User input: how are you
+2026-03-22 20:38:48 - core.memory - ERROR - Embedding generation failed: llama runner process has terminated: error loading model: unable to allocate CUDA0 buffer
+llama_model_load_from_file_impl: failed to load model (status code: 500)
+2026-03-22 20:38:48 - core.assistant - DEBUG - Prompt length: 6496 chars
+2026-03-22 20:38:49 - ai.llm - DEBUG - Local context found in RAG database. Appending to prompt.
+2026-03-22 20:38:49 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-22 20:39:04 - ai.llm - ERROR - LLM HTTP error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+2026-03-22 20:39:04 - core.assistant - ERROR - Error processing command: LLM server error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 83, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\david_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system, temperature=0.0, num_predict=150)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 120, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+
+2026-03-22 20:39:04 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-22 20:39:04 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-22 20:39:04 - voice.tts - ERROR - Cloud TTS playback failed: Cannot connect to host speech.platform.bing.com:443 ssl:<ssl.SSLContext object at 0x000001CA5653F530> [getaddrinfo failed]
+2026-03-22 20:39:04 - voice.tts - WARNING - Cloud TTS failed, falling back to local: Cannot connect to host speech.platform.bing.com:443 ssl:<ssl.SSLContext object at 0x000001CA5653F530> [getaddrinfo failed]
+2026-03-22 20:39:04 - voice.tts_local - INFO - Speaking (PowerShell): Sorry, I encountered an error....

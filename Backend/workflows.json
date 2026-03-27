@@ -1,0 +1,28 @@
+{
+  "wf_1774334323": {
+    "id": "wf_1774334323",
+    "name": "Morning Routine",
+    "steps": [
+      {
+        "action": "open_chrome",
+        "params": {},
+        "delay_after": 3
+      },
+      {
+        "action": "speak",
+        "params": {
+          "text": "Good morning! Starting your day."
+        },
+        "delay_after": 2
+      }
+    ],
+    "schedule": {
+      "hour": 9,
+      "minute": 0
+    },
+    "enabled": true,
+    "created_at": "2026-03-24T12:08:43.653619",
+    "last_run": null,
+    "run_count": 0
+  }
+}

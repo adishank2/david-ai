@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Turn on Lights",
+        "triggers": [
+            "lights on",
+            "turn on the lights",
+            "illuminate"
+        ],
+        "type": "command",
+        "payload": "echo Lights are ON (Simulated)",
+        "response": "Turning on the lights."
+    },
+    {
+        "name": "Open Calculator",
+        "triggers": [
+            "open calculator",
+            "calc",
+            "math mode"
+        ],
+        "type": "command",
+        "payload": "calc.exe",
+        "response": "Opening calculator."
+    },
+    {
+        "name": "Check Google",
+        "triggers": [
+            "ping google",
+            "check internet"
+        ],
+        "type": "command",
+        "payload": "ping google.com",
+        "response": "Checking connectivity..."
+    }
+]

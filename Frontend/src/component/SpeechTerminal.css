@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.speech-terminal {
+    position: relative;
+    width: min(760px, 90vw);
+    height: 68px;
+    z-index: 30;
+
+    /* Asymmetric shape */
+    border-radius: 30px 8px 30px 8px;
+
+    /* Liquid glass */
+    backdrop-filter: blur(28px) saturate(200%);
+    -webkit-backdrop-filter: blur(28px) saturate(200%);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.1),
+        0 10px 40px rgba(0, 0, 0, 0.4),
+        0 0 24px rgba(0, 180, 255, 0.08);
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 28px;
+    gap: 20px;
+}
+
+/* Left label */
+.terminal-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    color: rgba(0, 210, 255, 0.85);
+    text-shadow: 0 0 12px rgba(0, 200, 255, 0.6);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* Vertical divider */
+.terminal-divider {
+    width: 1px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.15);
+    flex-shrink: 0;
+}
+
+/* Centered text area */
+.terminal-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Share Tech Mono', 'Courier New', monospace;
+    overflow: hidden;
+}
+
+.terminal-text {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    animation: fadeIn 0.2s ease;
+    text-align: center;
+}
+
+/* User spoken text — white */
+.terminal-user {
+    color: rgba(220, 240, 255, 0.92);
+    text-shadow: 0 0 10px rgba(180, 220, 255, 0.4);
+}
+
+/* David's AI response — cyan glow */
+.terminal-david {
+    color: #00ffe1;
+    text-shadow: 0 0 14px rgba(0, 255, 225, 0.6);
+}
+
+/* Interim (typing) text — dimmed */
+.terminal-interim {
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(3px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.terminal-placeholder {
+    color: rgba(0, 220, 255, 0.45);
+}
+
+/* Blinking cursor */
+.cursor-blink {
+    animation: blink 1s step-end infinite;
+    color: rgba(0, 220, 255, 0.7);
+    font-size: 20px;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+}

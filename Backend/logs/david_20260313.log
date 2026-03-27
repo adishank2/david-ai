@@ -1,0 +1,75 @@
+2026-03-13 23:51:05 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-13 23:51:05 - core.assistant - INFO - Loading plugins...
+2026-03-13 23:51:05 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-13 23:51:05 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-13 23:51:05 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-13 23:51:05 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-13 23:51:05 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-13 23:51:05 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-13 23:51:05 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-13 23:51:05 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-13 23:51:05 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-13 23:51:05 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-13 23:51:05 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-13 23:51:06 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-13 23:51:06 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-13 23:51:06 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-13 23:51:06 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-13 23:51:07 - plugins.screenshot_plugin - INFO - Created screenshot directory: C:\Users\disha\Pictures\David_Screenshots
+2026-03-13 23:51:07 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-13 23:51:07 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-13 23:51:07 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-13 23:51:07 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-13 23:51:08 - plugins.manager - ERROR - Failed to load plugin vision_plugin: No module named 'ai.vision'
+2026-03-13 23:51:08 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-13 23:51:08 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-13 23:51:08 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-13 23:51:08 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-13 23:51:08 - plugins.manager - INFO - Loaded 10/11 plugins
+2026-03-13 23:51:08 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-13 23:51:08 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-13 23:51:08 - voice.stt - INFO - Loading Whisper model...
+2026-03-13 23:51:40 - voice.stt - INFO - Whisper model ready
+2026-03-13 23:51:40 - core.assistant - INFO - Whisper model ready
+2026-03-13 23:51:40 - core.assistant - INFO - David AI started successfully
+2026-03-13 23:51:40 - core.assistant - INFO - Starting in wake word mode
+2026-03-13 23:51:40 - voice.simple_wake_word - INFO - Loading 'base.en' Whisper model for accurate wake word detection...
+2026-03-13 23:51:41 - voice.simple_wake_word - DEBUG - Wake word listening loop started
+2026-03-13 23:51:41 - voice.simple_wake_word - INFO - Wake word detection started
+2026-03-13 23:57:52 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-13 23:57:52 - core.assistant - INFO - Loading plugins...
+2026-03-13 23:57:52 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-13 23:57:52 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-13 23:57:52 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-13 23:57:52 - plugins.manager - ERROR - Failed to load plugin vision_plugin: No module named 'ai.vision'
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-13 23:57:52 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-13 23:57:52 - plugins.manager - INFO - Loaded 10/11 plugins
+2026-03-13 23:57:52 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-13 23:57:52 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-13 23:57:52 - voice.stt - INFO - Loading Whisper model...
+2026-03-13 23:57:53 - voice.stt - INFO - Whisper model ready
+2026-03-13 23:57:53 - core.assistant - INFO - Whisper model ready
+2026-03-13 23:57:53 - core.assistant - INFO - David AI started successfully
+2026-03-13 23:57:53 - core.assistant - INFO - Starting in wake word mode
+2026-03-13 23:57:53 - voice.simple_wake_word - INFO - Loading 'base.en' Whisper model for accurate wake word detection...
+2026-03-13 23:57:54 - voice.simple_wake_word - DEBUG - Wake word listening loop started
+2026-03-13 23:57:54 - voice.simple_wake_word - INFO - Wake word detection started

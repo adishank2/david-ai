@@ -1,0 +1,1971 @@
+2026-03-14 00:06:01 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 00:06:01 - core.assistant - INFO - Loading plugins...
+2026-03-14 00:06:01 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 00:06:01 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 00:06:01 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 00:06:01 - plugins.manager - ERROR - Failed to load plugin vision_plugin: Can't instantiate abstract class VisionPlugin with abstract method get_description
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 00:06:01 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 00:06:01 - plugins.manager - INFO - Loaded 10/11 plugins
+2026-03-14 00:06:01 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 00:06:01 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 00:06:01 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 00:06:02 - voice.stt - INFO - Whisper model ready
+2026-03-14 00:06:02 - core.assistant - INFO - Whisper model ready
+2026-03-14 00:06:02 - core.assistant - INFO - David AI started successfully
+2026-03-14 00:06:02 - core.assistant - INFO - Starting in wake word mode
+2026-03-14 00:06:02 - voice.simple_wake_word - INFO - Loading 'base.en' Whisper model for accurate wake word detection...
+2026-03-14 00:06:03 - voice.simple_wake_word - DEBUG - Wake word listening loop started
+2026-03-14 00:06:03 - voice.simple_wake_word - INFO - Wake word detection started
+2026-03-14 00:12:20 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 00:12:20 - core.assistant - INFO - Loading plugins...
+2026-03-14 00:12:20 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 00:12:20 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 00:12:20 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 00:12:20 - plugins.manager - ERROR - Failed to load plugin vision_plugin: BasePlugin.__init__() got an unexpected keyword argument 'name'
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 00:12:20 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 00:12:20 - plugins.manager - INFO - Loaded 10/11 plugins
+2026-03-14 00:12:20 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 00:12:20 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 00:12:20 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 00:12:21 - voice.stt - INFO - Whisper model ready
+2026-03-14 00:12:21 - core.assistant - INFO - Whisper model ready
+2026-03-14 00:12:21 - core.assistant - INFO - David AI started successfully
+2026-03-14 00:12:21 - core.assistant - INFO - Starting in wake word mode
+2026-03-14 00:12:21 - voice.simple_wake_word - INFO - Loading 'base.en' Whisper model for accurate wake word detection...
+2026-03-14 00:12:22 - voice.simple_wake_word - DEBUG - Wake word listening loop started
+2026-03-14 00:12:22 - voice.simple_wake_word - INFO - Wake word detection started
+2026-03-14 00:18:10 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 00:18:10 - core.assistant - INFO - Loading plugins...
+2026-03-14 00:18:10 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 00:18:10 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 00:18:10 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 00:18:10 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 00:18:10 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 00:18:10 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 00:18:10 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 00:18:10 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 00:18:11 - voice.stt - INFO - Whisper model ready
+2026-03-14 00:18:11 - core.assistant - INFO - Whisper model ready
+2026-03-14 00:18:11 - core.assistant - INFO - David AI started successfully
+2026-03-14 00:18:11 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 00:27:04 - voice.stt - DEBUG - Web text command received: sorry sorry hey David
+2026-03-14 00:27:04 - core.assistant - INFO - User input: sorry sorry hey david
+2026-03-14 00:27:04 - core.memory - ERROR - Embedding generation failed: model "david" not found, try pulling it first (status code: 404)
+2026-03-14 00:27:04 - core.assistant - DEBUG - Prompt length: 5837 chars
+2026-03-14 00:27:04 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:27:06 - ai.llm - ERROR - LLM HTTP error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-03-14 00:27:06 - core.assistant - ERROR - Error processing command: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 53, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\Backend\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 90, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+2026-03-14 00:27:06 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-14 00:27:09 - voice.tts - ERROR - Cloud TTS playback failed: [WinError 2] The system cannot find the file specified
+2026-03-14 00:27:09 - voice.tts - WARNING - Cloud TTS failed, falling back to local: [WinError 2] The system cannot find the file specified
+2026-03-14 00:27:09 - voice.tts_local - INFO - Speaking (PowerShell): Sorry, I encountered an error....
+2026-03-14 00:27:09 - voice.stt - DEBUG - Web text command received: hi David how are you
+2026-03-14 00:27:09 - core.assistant - INFO - User input: hi david how are you
+2026-03-14 00:27:09 - core.memory - ERROR - Embedding generation failed: model "david" not found, try pulling it first (status code: 404)
+2026-03-14 00:27:09 - core.assistant - DEBUG - Prompt length: 5836 chars
+2026-03-14 00:27:09 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:27:12 - ai.llm - ERROR - LLM HTTP error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-03-14 00:27:12 - core.assistant - ERROR - Error processing command: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 53, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\Backend\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 90, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+2026-03-14 00:27:12 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-14 00:27:12 - voice.tts_local - INFO - Stopping TTS playback...
+2026-03-14 00:27:12 - voice.tts - ERROR - Cloud TTS playback failed: [WinError 2] The system cannot find the file specified
+2026-03-14 00:27:12 - voice.tts - WARNING - Cloud TTS failed, falling back to local: [WinError 2] The system cannot find the file specified
+2026-03-14 00:27:12 - voice.tts_local - INFO - Speaking (PowerShell): Sorry, I encountered an error....
+2026-03-14 00:27:12 - voice.stt - DEBUG - Web text command received: hello David how are you
+2026-03-14 00:27:12 - core.assistant - INFO - User input: hello david how are you
+2026-03-14 00:27:12 - core.memory - ERROR - Embedding generation failed: model "david" not found, try pulling it first (status code: 404)
+2026-03-14 00:27:12 - core.assistant - DEBUG - Prompt length: 5839 chars
+2026-03-14 00:27:12 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:27:15 - ai.llm - ERROR - LLM HTTP error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-03-14 00:27:15 - core.assistant - ERROR - Error processing command: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 53, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\Backend\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 90, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+2026-03-14 00:27:15 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-14 00:27:15 - voice.tts_local - INFO - Stopping TTS playback...
+2026-03-14 00:27:15 - voice.tts - ERROR - Cloud TTS playback failed: [WinError 2] The system cannot find the file specified
+2026-03-14 00:27:15 - voice.tts - WARNING - Cloud TTS failed, falling back to local: [WinError 2] The system cannot find the file specified
+2026-03-14 00:27:15 - voice.tts_local - INFO - Speaking (PowerShell): Sorry, I encountered an error....
+2026-03-14 00:28:09 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 00:28:09 - core.assistant - INFO - User input: hey david
+2026-03-14 00:28:09 - core.memory - ERROR - Embedding generation failed: model "david" not found, try pulling it first (status code: 404)
+2026-03-14 00:28:09 - core.assistant - DEBUG - Prompt length: 5825 chars
+2026-03-14 00:28:09 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:28:11 - ai.llm - ERROR - LLM HTTP error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-03-14 00:28:11 - core.assistant - ERROR - Error processing command: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 53, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\Backend\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 90, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+2026-03-14 00:28:11 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-14 00:28:12 - voice.tts_local - INFO - Stopping TTS playback...
+2026-03-14 00:28:12 - voice.tts - ERROR - Cloud TTS playback failed: [WinError 2] The system cannot find the file specified
+2026-03-14 00:28:12 - voice.tts - WARNING - Cloud TTS failed, falling back to local: [WinError 2] The system cannot find the file specified
+2026-03-14 00:28:12 - voice.tts_local - INFO - Speaking (PowerShell): Sorry, I encountered an error....
+2026-03-14 00:28:14 - voice.stt - DEBUG - Web text command received: open Notepad
+2026-03-14 00:28:14 - core.assistant - INFO - User input: open notepad
+2026-03-14 00:28:14 - core.memory - ERROR - Embedding generation failed: model "david" not found, try pulling it first (status code: 404)
+2026-03-14 00:28:14 - core.assistant - DEBUG - Prompt length: 5828 chars
+2026-03-14 00:28:14 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:28:16 - ai.llm - ERROR - LLM HTTP error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-03-14 00:28:16 - core.assistant - ERROR - Error processing command: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 53, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\Backend\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 90, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+2026-03-14 00:28:16 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-14 00:28:17 - voice.tts_local - INFO - Stopping TTS playback...
+2026-03-14 00:28:17 - voice.tts - ERROR - Cloud TTS playback failed: [WinError 2] The system cannot find the file specified
+2026-03-14 00:28:17 - voice.tts - WARNING - Cloud TTS failed, falling back to local: [WinError 2] The system cannot find the file specified
+2026-03-14 00:28:17 - voice.tts_local - INFO - Speaking (PowerShell): Sorry, I encountered an error....
+2026-03-14 00:35:39 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 00:35:39 - core.assistant - INFO - Loading plugins...
+2026-03-14 00:35:39 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 00:35:39 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 00:35:39 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 00:35:39 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 00:35:39 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 00:35:39 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 00:35:39 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 00:35:39 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 00:35:40 - voice.stt - INFO - Whisper model ready
+2026-03-14 00:35:40 - core.assistant - INFO - Whisper model ready
+2026-03-14 00:35:40 - core.assistant - INFO - David AI started successfully
+2026-03-14 00:35:40 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 00:36:32 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 00:36:32 - core.assistant - INFO - User input: hey david
+2026-03-14 00:36:32 - core.memory - ERROR - Embedding generation failed: model "david" not found, try pulling it first (status code: 404)
+2026-03-14 00:36:32 - core.assistant - DEBUG - Prompt length: 5825 chars
+2026-03-14 00:36:32 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:36:34 - ai.llm - ERROR - LLM HTTP error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-03-14 00:36:34 - core.assistant - ERROR - Error processing command: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 53, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\Backend\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 90, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+2026-03-14 00:36:34 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-14 00:36:35 - voice.tts - ERROR - Cloud TTS playback failed: [WinError 2] The system cannot find the file specified
+2026-03-14 00:36:35 - voice.tts - WARNING - Cloud TTS failed, falling back to local: [WinError 2] The system cannot find the file specified
+2026-03-14 00:36:35 - voice.tts_local - INFO - Speaking (PowerShell): Sorry, I encountered an error....
+2026-03-14 00:36:42 - voice.stt - DEBUG - Web text command received: open Notepad
+2026-03-14 00:36:42 - core.assistant - INFO - User input: open notepad
+2026-03-14 00:36:42 - core.memory - ERROR - Embedding generation failed: model "david" not found, try pulling it first (status code: 404)
+2026-03-14 00:36:42 - core.assistant - DEBUG - Prompt length: 5828 chars
+2026-03-14 00:36:42 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:36:44 - ai.llm - ERROR - LLM HTTP error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-03-14 00:36:44 - core.assistant - ERROR - Error processing command: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\ai\llm.py", line 53, in ask_llm
+    r.raise_for_status()
+  File "D:\project\David Ai\Backend\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\David Ai\Backend\core\assistant.py", line 200, in process_single_command
+    intent_text = ask_llm(prompt, system=full_system)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\David Ai\Backend\ai\llm.py", line 90, in ask_llm
+    raise Exception(f"LLM server error: {e}")
+Exception: LLM server error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+2026-03-14 00:36:44 - voice.tts - DEBUG - Speaking (Cloud): Sorry, I encountered an error.
+2026-03-14 00:36:45 - voice.tts_local - INFO - Stopping TTS playback...
+2026-03-14 00:36:45 - voice.tts - ERROR - Cloud TTS playback failed: [WinError 2] The system cannot find the file specified
+2026-03-14 00:36:45 - voice.tts - WARNING - Cloud TTS failed, falling back to local: [WinError 2] The system cannot find the file specified
+2026-03-14 00:36:45 - voice.tts_local - INFO - Speaking (PowerShell): Sorry, I encountered an error....
+2026-03-14 00:48:28 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 00:48:28 - core.assistant - INFO - Loading plugins...
+2026-03-14 00:48:28 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 00:48:28 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 00:48:28 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 00:48:28 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 00:48:28 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 00:48:28 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 00:48:28 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 00:48:28 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 00:48:28 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 00:48:28 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 00:48:28 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 00:48:28 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 00:48:28 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 00:48:28 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 00:48:28 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 00:48:28 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 00:48:28 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 00:48:28 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 00:48:28 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 00:48:29 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 00:48:29 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 00:48:29 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 00:48:29 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 00:48:29 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 00:48:29 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 00:48:29 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 00:48:29 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 00:48:29 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 00:48:29 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 00:48:29 - voice.stt - INFO - Whisper model ready
+2026-03-14 00:48:29 - core.assistant - INFO - Whisper model ready
+2026-03-14 00:48:29 - core.assistant - INFO - David AI started successfully
+2026-03-14 00:48:29 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 00:49:36 - voice.stt - DEBUG - Web text command received: open notepad
+2026-03-14 00:49:36 - core.assistant - INFO - User input: open notepad
+2026-03-14 00:50:42 - core.assistant - DEBUG - Prompt length: 5828 chars
+2026-03-14 00:50:42 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:50:45 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 00:50:45 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "open_notepad"
+}
+2026-03-14 00:50:45 - actions.validator - DEBUG - Accepting intent for plugin handling: open_notepad
+2026-03-14 00:50:45 - actions.executor - INFO - Executing intent: open_notepad
+2026-03-14 00:50:45 - actions.executor - WARNING - Unknown intent type: open_notepad
+2026-03-14 00:50:45 - voice.tts - DEBUG - Speaking (Cloud): Could you say that differently?
+2026-03-14 00:50:58 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 00:51:16 - voice.stt - DEBUG - Web text command received: hello
+2026-03-14 00:51:16 - core.assistant - INFO - User input: hello
+2026-03-14 00:51:16 - core.assistant - DEBUG - Prompt length: 5531 chars
+2026-03-14 00:51:16 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:51:19 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 00:51:19 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 00:51:19 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:51:22 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 00:51:22 - voice.tts - DEBUG - Speaking (Cloud): Hey Dishank! Welcome back! No problem, I'm here to chat. How
+2026-03-14 00:51:44 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 00:52:22 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 00:52:22 - core.assistant - INFO - User input: hey david
+2026-03-14 00:52:23 - core.assistant - DEBUG - Prompt length: 5578 chars
+2026-03-14 00:52:23 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:52:26 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 00:52:26 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 00:52:26 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:52:28 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 00:52:28 - voice.tts - DEBUG - Speaking (Cloud): Hey Dishank! It's great to see you again! What's on your min
+2026-03-14 00:52:39 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 00:52:39 - voice.stt - DEBUG - Web text command received: open Notepad
+2026-03-14 00:52:39 - core.assistant - INFO - User input: open notepad
+2026-03-14 00:52:39 - core.assistant - DEBUG - Prompt length: 5604 chars
+2026-03-14 00:52:39 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:52:42 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 00:52:42 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "open_app",
+  "app": "notepad"
+}
+2026-03-14 00:52:42 - actions.executor - INFO - Executing intent: open_app
+2026-03-14 00:52:42 - actions.executor - INFO - Opening application: notepad
+2026-03-14 00:52:43 - voice.tts - DEBUG - Speaking (Cloud): Got it! Opening Notepad.
+2026-03-14 00:52:49 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 00:52:49 - voice.stt - DEBUG - Web text command received: open Notepad
+2026-03-14 00:52:49 - core.assistant - INFO - User input: open notepad
+2026-03-14 00:52:49 - core.assistant - DEBUG - Prompt length: 5260 chars
+2026-03-14 00:52:49 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:52:52 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 00:52:52 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "open_app",
+  "app": "notepad"
+}
+2026-03-14 00:52:52 - actions.executor - INFO - Executing intent: open_app
+2026-03-14 00:52:52 - actions.executor - INFO - Opening application: notepad
+2026-03-14 00:52:52 - voice.tts - DEBUG - Speaking (Cloud): Got it! Opening Notepad.
+2026-03-14 00:52:57 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 00:53:35 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 00:53:35 - core.assistant - INFO - User input: hey david
+2026-03-14 00:53:35 - core.assistant - DEBUG - Prompt length: 5233 chars
+2026-03-14 00:53:35 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:53:38 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 00:53:38 - core.assistant - DEBUG - LLM raw response: {"intent": "open_app", "app": "notepad"}
+2026-03-14 00:53:38 - actions.executor - INFO - Executing intent: open_app
+2026-03-14 00:53:38 - actions.executor - INFO - Opening application: notepad
+2026-03-14 00:53:38 - voice.tts - DEBUG - Speaking (Cloud): Right away! Opening Notepad.
+2026-03-14 00:53:49 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 00:53:49 - voice.stt - DEBUG - Web text command received: how are you
+2026-03-14 00:53:49 - core.assistant - INFO - User input: how are you
+2026-03-14 00:53:50 - core.assistant - DEBUG - Prompt length: 5229 chars
+2026-03-14 00:53:50 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:53:53 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 00:53:53 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 00:53:53 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:53:56 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 00:53:56 - voice.tts - DEBUG - Speaking (Cloud): I'm doing great, thanks for asking! Just hanging out and rea
+2026-03-14 00:54:10 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 00:54:14 - voice.stt - DEBUG - Web text command received: my days going boring
+2026-03-14 00:54:14 - core.assistant - INFO - User input: my days going boring
+2026-03-14 00:54:15 - core.assistant - DEBUG - Prompt length: 5294 chars
+2026-03-14 00:54:15 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:54:18 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 00:54:18 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "weather",
+  "location": "user location"
+}
+2026-03-14 00:54:18 - actions.validator - DEBUG - Accepting intent for plugin handling: weather
+2026-03-14 00:54:18 - plugins.manager - DEBUG - Executing plugin WeatherPlugin for intent weather
+2026-03-14 00:54:19 - core.assistant - INFO - Plugin executed: {'intent': 'weather', 'location': 'user location'}
+2026-03-14 00:54:19 - voice.tts - DEBUG - Speaking (Cloud): Current weather: Clear +15°C 67% ↘4km/h
+2026-03-14 00:54:29 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 00:54:36 - voice.stt - DEBUG - Web text command received: percentage
+2026-03-14 00:54:36 - core.assistant - INFO - User input: percentage
+2026-03-14 00:54:36 - core.assistant - DEBUG - Prompt length: 5266 chars
+2026-03-14 00:54:36 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:54:39 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 00:54:39 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 00:54:39 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 00:54:42 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 00:54:42 - voice.tts - DEBUG - Speaking (Cloud): I think you meant to say "percentage" instead of "percent!" 
+2026-03-14 00:54:56 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 00:59:16 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 00:59:16 - core.assistant - INFO - Loading plugins...
+2026-03-14 00:59:16 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 00:59:16 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 00:59:16 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 00:59:16 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 00:59:16 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 00:59:16 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 00:59:16 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 00:59:16 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 00:59:16 - voice.stt - INFO - Whisper model ready
+2026-03-14 00:59:16 - core.assistant - INFO - Whisper model ready
+2026-03-14 00:59:16 - core.assistant - INFO - David AI started successfully
+2026-03-14 00:59:16 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 00:59:59 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 00:59:59 - core.assistant - INFO - User input: hey david
+2026-03-14 01:00:05 - core.assistant - DEBUG - Prompt length: 5825 chars
+2026-03-14 01:00:05 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 01:00:08 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 01:00:08 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 01:00:08 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 01:00:11 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 01:00:11 - voice.tts - DEBUG - Speaking (Cloud): Hey there, Dishank! No worries about the space story, I'm ha
+2026-03-14 01:00:29 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 01:00:29 - voice.stt - DEBUG - Web text command received: open Chrome
+2026-03-14 01:00:29 - core.assistant - INFO - User input: open chrome
+2026-03-14 01:00:29 - core.assistant - DEBUG - Prompt length: 5679 chars
+2026-03-14 01:00:29 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 01:00:33 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 01:00:33 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "open_app",
+  "app": "chrome"
+}
+2026-03-14 01:00:33 - actions.executor - INFO - Executing intent: open_app
+2026-03-14 01:00:33 - actions.executor - INFO - Opening application: chrome
+2026-03-14 01:00:33 - voice.tts - DEBUG - Speaking (Cloud): Got it! Opening Chrome.
+2026-03-14 01:00:37 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 01:00:44 - voice.stt - DEBUG - Web text command received: what is my battery status
+2026-03-14 01:00:44 - core.assistant - INFO - User input: what is my battery status
+2026-03-14 01:00:44 - core.assistant - DEBUG - Prompt length: 5680 chars
+2026-03-14 01:00:44 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 01:00:47 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 01:00:47 - core.assistant - DEBUG - LLM raw response: {"intent": "battery_status"}
+2026-03-14 01:00:47 - actions.validator - DEBUG - Accepting intent for plugin handling: battery_status
+2026-03-14 01:00:47 - plugins.manager - DEBUG - Executing plugin SystemMonitorPlugin for intent battery_status
+2026-03-14 01:00:47 - core.assistant - INFO - Plugin executed: {'intent': 'battery_status'}
+2026-03-14 01:00:47 - voice.tts - DEBUG - Speaking (Cloud): Battery: 52% (charging)
+2026-03-14 01:00:52 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 11:27:11 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 11:27:55 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 11:27:55 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 11:27:55 - core.assistant - INFO - Loading plugins...
+2026-03-14 11:27:55 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 11:27:55 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 11:27:55 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 11:27:55 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 11:27:55 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 11:27:55 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 11:27:55 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 11:27:55 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 11:27:55 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 11:27:55 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 11:27:55 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 11:27:55 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 11:27:55 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 11:27:55 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 11:27:55 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 11:27:55 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 11:27:55 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 11:27:56 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 11:27:56 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 11:27:56 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 11:27:56 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 11:27:56 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 11:27:56 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 11:27:56 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 11:27:56 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 11:27:56 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 11:27:56 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 11:27:56 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 11:27:56 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 11:27:57 - voice.stt - INFO - Whisper model ready
+2026-03-14 11:27:57 - core.assistant - INFO - Whisper model ready
+2026-03-14 11:27:57 - core.assistant - INFO - David AI started successfully
+2026-03-14 11:27:57 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 12:25:17 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 12:25:19 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 12:25:19 - core.assistant - INFO - Loading plugins...
+2026-03-14 12:25:19 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 12:25:19 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 12:25:19 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 12:25:19 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 12:25:19 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 12:25:19 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 12:25:19 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 12:25:19 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 12:25:20 - voice.stt - INFO - Whisper model ready
+2026-03-14 12:25:20 - core.assistant - INFO - Whisper model ready
+2026-03-14 12:25:20 - core.assistant - INFO - David AI started successfully
+2026-03-14 12:25:20 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 12:29:50 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 12:29:50 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 12:29:50 - core.assistant - INFO - Loading plugins...
+2026-03-14 12:29:50 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 12:29:50 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 12:29:50 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 12:29:50 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 12:29:50 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 12:29:50 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 12:29:50 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 12:29:50 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 12:29:51 - voice.stt - INFO - Whisper model ready
+2026-03-14 12:29:51 - core.assistant - INFO - Whisper model ready
+2026-03-14 12:29:51 - core.assistant - INFO - David AI started successfully
+2026-03-14 12:29:51 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 12:55:56 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 12:55:56 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 12:55:56 - core.assistant - INFO - Loading plugins...
+2026-03-14 12:55:56 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 12:55:56 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 12:55:56 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 12:55:56 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 12:55:56 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 12:55:56 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 12:55:56 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 12:55:56 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 12:55:57 - voice.stt - INFO - Whisper model ready
+2026-03-14 12:55:57 - core.assistant - INFO - Whisper model ready
+2026-03-14 12:55:57 - core.assistant - INFO - David AI started successfully
+2026-03-14 12:55:57 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 13:00:45 - utils.email_auth - WARNING - No SMTP credentials configured. Printing OTP to console instead.
+2026-03-14 13:00:45 - utils.email_auth - INFO - ========== OTP FOR dishankagrawal05@gmail.com is: 526422 ==========
+2026-03-14 13:03:09 - voice.stt - DEBUG - Web text command received: hello Jarvis
+2026-03-14 13:03:09 - core.assistant - INFO - User input: hello jarvis
+2026-03-14 13:04:24 - core.assistant - DEBUG - Prompt length: 5828 chars
+2026-03-14 13:04:24 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:04:28 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:04:28 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 13:04:28 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:04:31 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:04:31 - voice.tts - DEBUG - Speaking (Cloud): I think there's been a mix-up! My name is David, not Jarvis.
+2026-03-14 13:04:51 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:04:51 - voice.stt - DEBUG - Web text command received: hello David
+2026-03-14 13:04:51 - core.assistant - INFO - User input: hello david
+2026-03-14 13:04:51 - core.assistant - DEBUG - Prompt length: 5674 chars
+2026-03-14 13:04:51 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:04:55 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:04:55 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 13:04:55 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:04:57 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:04:57 - voice.tts - DEBUG - Speaking (Cloud): Hey Dishank! No worries about the identity switcheroo earlie
+2026-03-14 13:05:10 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:05:10 - voice.stt - DEBUG - Web text command received: open Notepad
+2026-03-14 13:05:10 - core.assistant - INFO - User input: open notepad
+2026-03-14 13:05:11 - core.assistant - DEBUG - Prompt length: 5772 chars
+2026-03-14 13:05:11 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:05:14 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:05:14 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "open_app",
+  "app": "notepad"
+}
+2026-03-14 13:05:14 - actions.executor - INFO - Executing intent: open_app
+2026-03-14 13:05:14 - actions.executor - INFO - Opening application: notepad
+2026-03-14 13:05:14 - voice.tts - DEBUG - Speaking (Cloud): Consider it done! Opening Notepad.
+2026-03-14 13:05:20 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:11:31 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 13:11:31 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 13:11:31 - core.assistant - INFO - Loading plugins...
+2026-03-14 13:11:31 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 13:11:31 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 13:11:31 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 13:11:31 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 13:11:31 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 13:11:31 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 13:11:31 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 13:11:31 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 13:11:32 - voice.stt - INFO - Whisper model ready
+2026-03-14 13:11:32 - core.assistant - INFO - Whisper model ready
+2026-03-14 13:11:32 - core.assistant - INFO - David AI started successfully
+2026-03-14 13:11:32 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 13:16:08 - core.assistant - INFO - Cleaning up resources...
+2026-03-14 13:16:08 - core.context - INFO - Context saved to D:\project\David Ai\Backend\context.json
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: AutomationPlugin
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: BrowserPlugin
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: CalendarPlugin
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: ClipboardPlugin
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: EmailPlugin
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: FileOpsPlugin
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: ScreenshotPlugin
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: SystemMonitorPlugin
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: Vision
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: WeatherPlugin
+2026-03-14 13:16:08 - plugins.base - INFO - Plugin unloaded: WindowControlPlugin
+2026-03-14 13:16:08 - plugins.manager - INFO - All plugins unloaded
+2026-03-14 13:20:39 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 13:20:39 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 13:20:39 - core.assistant - INFO - Loading plugins...
+2026-03-14 13:20:39 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 13:20:39 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 13:20:39 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 13:20:39 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 13:20:39 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 13:20:39 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 13:20:39 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 13:20:39 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 13:20:40 - voice.stt - INFO - Whisper model ready
+2026-03-14 13:20:40 - core.assistant - INFO - Whisper model ready
+2026-03-14 13:20:40 - core.assistant - INFO - David AI started successfully
+2026-03-14 13:20:40 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 13:28:37 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 13:28:37 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 13:28:37 - core.assistant - INFO - Loading plugins...
+2026-03-14 13:28:37 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 13:28:37 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 13:28:37 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 13:28:37 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 13:28:37 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 13:28:37 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 13:28:37 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 13:28:37 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 13:28:38 - voice.stt - INFO - Whisper model ready
+2026-03-14 13:28:38 - core.assistant - INFO - Whisper model ready
+2026-03-14 13:28:38 - core.assistant - INFO - David AI started successfully
+2026-03-14 13:28:38 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 13:30:59 - utils.email_auth - INFO - OTP email sent to dishanka55@gmail.com
+2026-03-14 13:31:50 - voice.stt - DEBUG - Web text command received: hello David
+2026-03-14 13:31:50 - core.assistant - INFO - User input: hello david
+2026-03-14 13:31:53 - core.assistant - DEBUG - Prompt length: 5827 chars
+2026-03-14 13:31:53 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:31:56 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:31:56 - core.assistant - DEBUG - LLM raw response: {"intent": "open_app", "app": "calculator"}
+2026-03-14 13:31:56 - actions.executor - INFO - Executing intent: open_app
+2026-03-14 13:31:56 - actions.executor - INFO - Opening application: calculator
+2026-03-14 13:31:56 - voice.tts - DEBUG - Speaking (Cloud): Consider it done! Opening Calculator.
+2026-03-14 13:32:01 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:32:05 - voice.stt - DEBUG - Web text command received: hello David
+2026-03-14 13:32:05 - core.assistant - INFO - User input: hello david
+2026-03-14 13:32:05 - core.assistant - DEBUG - Prompt length: 5542 chars
+2026-03-14 13:32:05 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:32:08 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:32:08 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 13:32:08 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:32:11 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:32:11 - voice.tts - DEBUG - Speaking (Cloud): Hey Dishank! It's great to be back chatting with you. What's
+2026-03-14 13:32:26 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:32:26 - voice.stt - DEBUG - Web text command received: how are you
+2026-03-14 13:32:26 - core.assistant - INFO - User input: how are you
+2026-03-14 13:32:27 - core.assistant - DEBUG - Prompt length: 5638 chars
+2026-03-14 13:32:27 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:32:30 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:32:30 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 13:32:30 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:32:33 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:32:33 - voice.tts - DEBUG - Speaking (Cloud): I'm doing great, thanks for asking! Just a regular day of he
+2026-03-14 13:32:43 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:32:43 - voice.stt - DEBUG - Web text command received: open YouTube
+2026-03-14 13:32:43 - core.assistant - INFO - User input: open youtube
+2026-03-14 13:32:44 - core.assistant - DEBUG - Prompt length: 5701 chars
+2026-03-14 13:32:44 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:32:47 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:32:47 - core.assistant - DEBUG - LLM raw response: {"intent": "open_app", "app": "youtube"}
+2026-03-14 13:32:47 - actions.validator - DEBUG - Unknown app: youtube
+2026-03-14 13:32:47 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:32:50 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:32:50 - voice.tts - DEBUG - Speaking (Cloud): No problem! I'd be happy to open YouTube for you. Let me jus
+2026-03-14 13:33:06 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:34:13 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 13:34:13 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 13:34:13 - core.assistant - INFO - Loading plugins...
+2026-03-14 13:34:13 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 13:34:13 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 13:34:13 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 13:34:13 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 13:34:13 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 13:34:13 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 13:34:13 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 13:34:13 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 13:34:14 - voice.stt - INFO - Whisper model ready
+2026-03-14 13:34:14 - core.assistant - INFO - Whisper model ready
+2026-03-14 13:34:14 - core.assistant - INFO - David AI started successfully
+2026-03-14 13:34:14 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 13:34:50 - core.assistant - INFO - Cleaning up resources...
+2026-03-14 13:34:50 - core.context - INFO - Context saved to D:\project\David Ai\Backend\context.json
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: AutomationPlugin
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: BrowserPlugin
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: CalendarPlugin
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: ClipboardPlugin
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: EmailPlugin
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: FileOpsPlugin
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: ScreenshotPlugin
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: SystemMonitorPlugin
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: Vision
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: WeatherPlugin
+2026-03-14 13:34:50 - plugins.base - INFO - Plugin unloaded: WindowControlPlugin
+2026-03-14 13:34:50 - plugins.manager - INFO - All plugins unloaded
+2026-03-14 13:42:49 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 13:42:49 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 13:42:49 - core.assistant - INFO - Loading plugins...
+2026-03-14 13:42:49 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 13:42:49 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 13:42:49 - plugins.calendar_plugin - INFO - Loaded 5 events
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 13:42:49 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 13:42:49 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 13:42:49 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 13:42:49 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 13:42:49 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 13:42:50 - voice.stt - INFO - Whisper model ready
+2026-03-14 13:42:50 - core.assistant - INFO - Whisper model ready
+2026-03-14 13:42:50 - core.assistant - INFO - David AI started successfully
+2026-03-14 13:42:50 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 13:43:20 - voice.stt - DEBUG - Web text command received: hello David
+2026-03-14 13:43:20 - core.assistant - INFO - User input: hello david
+2026-03-14 13:43:23 - core.assistant - DEBUG - Prompt length: 5827 chars
+2026-03-14 13:43:23 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:43:26 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:43:26 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 13:43:26 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:43:29 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:43:29 - voice.tts - DEBUG - Speaking (Cloud): No worries, buddy! So you're saying hi and wanting to start 
+2026-03-14 13:43:48 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:44:06 - voice.stt - DEBUG - Web text command received: hello David
+2026-03-14 13:44:06 - core.assistant - INFO - User input: hello david
+2026-03-14 13:44:07 - core.assistant - DEBUG - Prompt length: 5703 chars
+2026-03-14 13:44:07 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:44:10 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:44:10 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 13:44:10 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:44:13 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:44:13 - voice.tts - DEBUG - Speaking (Cloud): Nice to see you again! So, what's new with you? Need any hel
+2026-03-14 13:44:22 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:44:27 - voice.stt - DEBUG - Web text command received: create a meeting for 2:00 p.m.
+2026-03-14 13:44:27 - core.assistant - INFO - User input: create a meeting for 2:00 p.m.
+2026-03-14 13:44:35 - core.assistant - DEBUG - Prompt length: 5781 chars
+2026-03-14 13:44:35 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:44:39 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:44:39 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "create_event",
+  "title": "Meeting",
+  "date": "2026-03-14",
+  "time": "14:00"
+}
+2026-03-14 13:44:39 - actions.validator - DEBUG - Accepting intent for plugin handling: create_event
+2026-03-14 13:44:39 - plugins.manager - DEBUG - Executing plugin CalendarPlugin for intent create_event
+2026-03-14 13:44:39 - plugins.calendar_plugin - INFO - Saved 6 events
+2026-03-14 13:44:39 - plugins.calendar_plugin - INFO - Created event: Meeting at 2026-03-14 14:00:00
+2026-03-14 13:44:39 - core.assistant - INFO - Plugin executed: {'intent': 'create_event', 'title': 'Meeting', 'date': '2026-03-14', 'time': '14:00'}
+2026-03-14 13:44:39 - voice.tts - DEBUG - Speaking (Cloud): Created event: Meeting on March 14 at 02:00 PM
+2026-03-14 13:44:45 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:44:48 - voice.stt - DEBUG - Web text command received: thank you
+2026-03-14 13:44:48 - core.assistant - INFO - User input: thank you
+2026-03-14 13:44:48 - core.assistant - DEBUG - Prompt length: 5782 chars
+2026-03-14 13:44:48 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:44:51 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:44:51 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 13:44:51 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:44:54 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:44:54 - voice.tts - DEBUG - Speaking (Cloud): You're welcome, buddy! Glad I could help. Hope everything's 
+2026-03-14 13:45:03 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:45:03 - voice.stt - DEBUG - Web text command received: what is the battery status
+2026-03-14 13:45:03 - core.assistant - INFO - User input: what is the battery status
+2026-03-14 13:45:03 - core.assistant - DEBUG - Prompt length: 5507 chars
+2026-03-14 13:45:03 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:45:06 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:45:06 - core.assistant - DEBUG - LLM raw response: {"intent": "battery_status"}
+2026-03-14 13:45:06 - actions.validator - DEBUG - Accepting intent for plugin handling: battery_status
+2026-03-14 13:45:06 - plugins.manager - DEBUG - Executing plugin SystemMonitorPlugin for intent battery_status
+2026-03-14 13:45:06 - core.assistant - INFO - Plugin executed: {'intent': 'battery_status'}
+2026-03-14 13:45:06 - voice.tts - DEBUG - Speaking (Cloud): Battery: 93% (charging)
+2026-03-14 13:45:11 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:45:16 - voice.stt - DEBUG - Web text command received: David take a screenshot
+2026-03-14 13:45:16 - core.assistant - INFO - User input: david take a screenshot
+2026-03-14 13:45:16 - core.assistant - DEBUG - Prompt length: 5493 chars
+2026-03-14 13:45:16 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:45:19 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:45:19 - core.assistant - DEBUG - LLM raw response: {"intent": "take_screenshot"}
+2026-03-14 13:45:19 - actions.validator - DEBUG - Accepting intent for plugin handling: take_screenshot
+2026-03-14 13:45:19 - plugins.manager - DEBUG - Executing plugin ScreenshotPlugin for intent take_screenshot
+2026-03-14 13:45:20 - plugins.screenshot_plugin - INFO - Screenshot saved: C:\Users\disha\Pictures\David_Screenshots\screenshot_20260314_134519.png
+2026-03-14 13:45:20 - core.assistant - INFO - Plugin executed: {'intent': 'take_screenshot'}
+2026-03-14 13:45:20 - voice.tts - DEBUG - Speaking (Cloud): Screenshot saved as screenshot_20260314_134519.png
+2026-03-14 13:45:32 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:49:51 - voice.stt - DEBUG - Web text command received: hello David
+2026-03-14 13:49:51 - core.assistant - INFO - User input: hello david
+2026-03-14 13:49:53 - core.assistant - DEBUG - Prompt length: 5345 chars
+2026-03-14 13:49:53 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:50:10 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:50:10 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 13:50:10 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:50:14 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:50:14 - voice.tts - DEBUG - Speaking (Cloud): Hey there! Nice to chat with you again! How's your day going
+2026-03-14 13:50:27 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:50:27 - voice.stt - DEBUG - Web text command received: David
+2026-03-14 13:50:27 - core.assistant - INFO - User input: david
+2026-03-14 13:50:28 - core.assistant - DEBUG - Prompt length: 5377 chars
+2026-03-14 13:50:28 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:50:32 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:50:32 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "hello"
+}
+2026-03-14 13:50:32 - actions.validator - DEBUG - Accepting intent for plugin handling: hello
+2026-03-14 13:50:32 - actions.executor - INFO - Executing intent: hello
+2026-03-14 13:50:32 - actions.executor - WARNING - Unknown intent type: hello
+2026-03-14 13:50:32 - voice.tts - DEBUG - Speaking (Cloud): I didn't quite catch that.
+2026-03-14 13:50:35 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:50:35 - voice.stt - DEBUG - Web text command received: where are you
+2026-03-14 13:50:35 - core.assistant - INFO - User input: where are you
+2026-03-14 13:50:36 - core.assistant - DEBUG - Prompt length: 5340 chars
+2026-03-14 13:50:36 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:50:40 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:50:40 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "location_request",
+  "location": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  }
+}
+2026-03-14 13:50:40 - actions.validator - DEBUG - Accepting intent for plugin handling: location_request
+2026-03-14 13:50:40 - actions.executor - INFO - Executing intent: location_request
+2026-03-14 13:50:40 - actions.executor - WARNING - Unknown intent type: location_request
+2026-03-14 13:50:40 - voice.tts - DEBUG - Speaking (Cloud): Could you say that differently?
+2026-03-14 13:50:44 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:50:44 - voice.stt - DEBUG - Web text command received: play song
+2026-03-14 13:50:44 - core.assistant - INFO - User input: play song
+2026-03-14 13:50:44 - core.assistant - DEBUG - Prompt length: 5292 chars
+2026-03-14 13:50:44 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:50:48 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:50:48 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 13:50:48 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:50:53 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:50:53 - voice.tts - DEBUG - Speaking (Cloud): I'm not capable of playing songs directly, but I can suggest
+2026-03-14 13:51:25 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:51:25 - voice.stt - DEBUG - Web text command received: Chammak Challo
+2026-03-14 13:51:25 - core.assistant - INFO - User input: chammak challo
+2026-03-14 13:51:26 - core.assistant - DEBUG - Prompt length: 5628 chars
+2026-03-14 13:51:26 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:51:30 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:51:30 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "play_music",
+  "query": "Chammak Challo"
+}
+2026-03-14 13:51:30 - actions.validator - DEBUG - Accepting intent for plugin handling: play_music
+2026-03-14 13:51:30 - actions.executor - INFO - Executing intent: play_music
+2026-03-14 13:51:30 - voice.tts - DEBUG - Speaking (Cloud): Couldn't find a song matching 'Chammak Challo'
+2026-03-14 13:51:36 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:51:36 - voice.stt - DEBUG - Web text command received: take screenshot
+2026-03-14 13:51:36 - core.assistant - INFO - User input: take screenshot
+2026-03-14 13:51:36 - core.assistant - DEBUG - Prompt length: 5616 chars
+2026-03-14 13:51:36 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:51:40 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:51:40 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "take_screenshot",
+  "save": true
+}
+2026-03-14 13:51:40 - actions.validator - DEBUG - Accepting intent for plugin handling: take_screenshot
+2026-03-14 13:51:40 - plugins.manager - DEBUG - Executing plugin ScreenshotPlugin for intent take_screenshot
+2026-03-14 13:51:40 - plugins.screenshot_plugin - INFO - Screenshot saved: C:\Users\disha\Pictures\David_Screenshots\screenshot_20260314_135140.png
+2026-03-14 13:51:40 - core.assistant - INFO - Plugin executed: {'intent': 'take_screenshot', 'save': True}
+2026-03-14 13:51:40 - voice.tts - DEBUG - Speaking (Cloud): Screenshot saved as screenshot_20260314_135140.png
+2026-03-14 13:51:52 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:51:52 - voice.stt - DEBUG - Web text command received: David take screenshot
+2026-03-14 13:51:52 - core.assistant - INFO - User input: david take screenshot
+2026-03-14 13:51:53 - core.assistant - DEBUG - Prompt length: 5543 chars
+2026-03-14 13:51:53 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:51:57 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:51:57 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "take_screenshot",
+  "save": true
+}
+2026-03-14 13:51:57 - actions.validator - DEBUG - Accepting intent for plugin handling: take_screenshot
+2026-03-14 13:51:57 - plugins.manager - DEBUG - Executing plugin ScreenshotPlugin for intent take_screenshot
+2026-03-14 13:51:57 - plugins.screenshot_plugin - INFO - Screenshot saved: C:\Users\disha\Pictures\David_Screenshots\screenshot_20260314_135157.png
+2026-03-14 13:51:57 - core.assistant - INFO - Plugin executed: {'intent': 'take_screenshot', 'save': True}
+2026-03-14 13:51:57 - voice.tts - DEBUG - Speaking (Cloud): Screenshot saved as screenshot_20260314_135157.png
+2026-03-14 13:52:11 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:52:11 - voice.stt - DEBUG - Web text command received: I love you
+2026-03-14 13:52:11 - core.assistant - INFO - User input: i love you
+2026-03-14 13:52:12 - core.memory - INFO - Learned: I love you
+2026-03-14 13:52:12 - core.assistant - DEBUG - Prompt length: 5572 chars
+2026-03-14 13:52:12 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:52:16 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:52:16 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 13:52:16 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:52:19 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:52:19 - voice.tts - DEBUG - Speaking (Cloud): That's so sweet! I'm happy to chat with you, but "I love you
+2026-03-14 13:52:34 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:53:04 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 13:53:04 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 13:53:04 - core.assistant - INFO - Loading plugins...
+2026-03-14 13:53:04 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 13:53:04 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 13:53:04 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 13:53:04 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 13:53:04 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 13:53:04 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 13:53:04 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 13:53:04 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 13:53:05 - voice.stt - INFO - Whisper model ready
+2026-03-14 13:53:05 - core.assistant - INFO - Whisper model ready
+2026-03-14 13:53:05 - core.assistant - INFO - David AI started successfully
+2026-03-14 13:53:05 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 13:54:32 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 13:54:32 - core.assistant - INFO - User input: hey david
+2026-03-14 13:54:33 - core.assistant - DEBUG - Prompt length: 5825 chars
+2026-03-14 13:54:33 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:54:37 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:54:37 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 13:54:37 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:54:40 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 13:54:40 - voice.tts - DEBUG - Speaking (Cloud): I gotcha covered. What's new with you? Need some space-theme
+2026-03-14 13:54:52 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:54:56 - voice.stt - DEBUG - Web text command received: take a screenshot
+2026-03-14 13:54:56 - core.assistant - INFO - User input: take a screenshot
+2026-03-14 13:54:57 - core.assistant - DEBUG - Prompt length: 5636 chars
+2026-03-14 13:54:57 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 13:55:01 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 13:55:01 - core.assistant - DEBUG - LLM raw response: {"intent": "take_screenshot", "save": true}
+2026-03-14 13:55:01 - actions.validator - DEBUG - Accepting intent for plugin handling: take_screenshot
+2026-03-14 13:55:01 - plugins.manager - DEBUG - Executing plugin ScreenshotPlugin for intent take_screenshot
+2026-03-14 13:55:01 - plugins.screenshot_plugin - INFO - Screenshot saved: C:\Users\disha\Pictures\David_Screenshots\screenshot_20260314_135501.png
+2026-03-14 13:55:01 - core.assistant - INFO - Plugin executed: {'intent': 'take_screenshot', 'save': True}
+2026-03-14 13:55:01 - voice.tts - DEBUG - Speaking (Cloud): Screenshot saved successfully
+2026-03-14 13:55:06 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 13:57:23 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 13:57:23 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 13:57:23 - core.assistant - INFO - Loading plugins...
+2026-03-14 13:57:23 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 13:57:23 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 13:57:23 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 13:57:23 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 13:57:23 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 13:57:23 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 13:57:23 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 13:57:23 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 13:57:24 - voice.stt - INFO - Whisper model ready
+2026-03-14 13:57:24 - core.assistant - INFO - Whisper model ready
+2026-03-14 13:57:24 - core.assistant - INFO - David AI started successfully
+2026-03-14 13:57:24 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 14:26:51 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 14:26:52 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 14:26:52 - core.assistant - INFO - Loading plugins...
+2026-03-14 14:26:52 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 14:26:52 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 14:26:52 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 14:26:52 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 14:26:52 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 14:26:52 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 14:26:52 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 14:26:52 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 14:26:53 - voice.stt - INFO - Whisper model ready
+2026-03-14 14:26:53 - core.assistant - INFO - Whisper model ready
+2026-03-14 14:26:53 - core.assistant - INFO - David AI started successfully
+2026-03-14 14:26:53 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 14:29:50 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 14:29:50 - core.assistant - INFO - User input: hey david
+2026-03-14 14:29:55 - core.assistant - DEBUG - Prompt length: 5825 chars
+2026-03-14 14:29:55 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:29:59 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 14:29:59 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 14:29:59 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:30:02 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 14:30:02 - voice.tts - DEBUG - Speaking (Cloud): No worries about the story, let's start fresh. What's on you
+2026-03-14 14:30:15 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 14:30:19 - voice.stt - DEBUG - Web text command received: how are you
+2026-03-14 14:30:19 - core.assistant - INFO - User input: how are you
+2026-03-14 14:30:20 - core.assistant - DEBUG - Prompt length: 5645 chars
+2026-03-14 14:30:20 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:30:24 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 14:30:24 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 14:30:24 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:30:27 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 14:30:27 - voice.tts - DEBUG - Speaking (Cloud): I'm doin' great, thanks for askin'! Just chillin' and ready 
+2026-03-14 14:30:37 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 14:30:40 - voice.stt - DEBUG - Web text command received: I am also fine
+2026-03-14 14:30:40 - core.assistant - INFO - User input: i am also fine
+2026-03-14 14:30:41 - core.memory - INFO - Learned: I am also fine
+2026-03-14 14:30:41 - core.assistant - DEBUG - Prompt length: 5724 chars
+2026-03-14 14:30:41 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:30:45 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 14:30:45 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 14:30:45 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:30:49 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 14:30:49 - voice.tts - DEBUG - Speaking (Cloud): That's awesome to hear, Dishank! Glad we're both on the same
+2026-03-14 14:31:02 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 14:31:08 - voice.stt - DEBUG - Web text command received: tell me about yourself
+2026-03-14 14:31:08 - core.assistant - INFO - User input: tell me about yourself
+2026-03-14 14:31:09 - core.assistant - DEBUG - Prompt length: 5907 chars
+2026-03-14 14:31:09 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:31:13 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 14:31:13 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 14:31:13 - core.assistant - INFO - Web search query detected
+2026-03-14 14:31:13 - tools.web_search - INFO - Searching web for: yourself
+2026-03-14 14:31:14 - tools.web_search - DEBUG - Found 0 search results
+2026-03-14 14:31:14 - voice.tts - DEBUG - Speaking (Cloud): I couldn't find any information about that.
+2026-03-14 14:31:18 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 14:31:22 - voice.stt - DEBUG - Web text command received: who are you
+2026-03-14 14:31:22 - core.assistant - INFO - User input: who are you
+2026-03-14 14:31:22 - core.assistant - DEBUG - Prompt length: 5581 chars
+2026-03-14 14:31:22 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:31:26 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 14:31:26 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 14:31:26 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:31:30 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 14:31:30 - voice.tts - DEBUG - Speaking (Cloud): I'm David, your friendly AI assistant! I'm a computer progra
+2026-03-14 14:31:47 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 14:47:03 - voice.stt - DEBUG - Web text command received: hay David
+2026-03-14 14:47:03 - core.assistant - INFO - User input: hay david
+2026-03-14 14:47:08 - core.assistant - DEBUG - Prompt length: 5730 chars
+2026-03-14 14:47:08 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:47:11 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 14:47:11 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 14:47:11 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:47:15 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 14:47:15 - voice.tts - DEBUG - Speaking (Cloud): Hey Dishank! No worries about the usual small talk – what's 
+2026-03-14 14:47:27 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 14:49:30 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 14:49:30 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 14:49:30 - core.assistant - INFO - Loading plugins...
+2026-03-14 14:49:30 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 14:49:30 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 14:49:30 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 14:49:30 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 14:49:30 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 14:49:30 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 14:49:30 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-14 14:49:30 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 14:49:30 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 14:49:30 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 14:49:30 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 14:49:30 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 14:49:30 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 14:49:30 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 14:49:30 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 14:49:31 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 14:49:31 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 14:49:31 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 14:49:31 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 14:49:31 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 14:49:31 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 14:49:31 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 14:49:31 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 14:49:31 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 14:49:31 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 14:49:31 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 14:49:31 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 14:49:31 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 14:49:31 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 14:49:32 - voice.stt - INFO - Whisper model ready
+2026-03-14 14:49:32 - core.assistant - INFO - Whisper model ready
+2026-03-14 14:49:32 - core.assistant - INFO - David AI started successfully
+2026-03-14 14:49:32 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 14:50:12 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 14:50:12 - core.assistant - INFO - User input: hey david
+2026-03-14 14:50:13 - core.assistant - DEBUG - Prompt length: 5825 chars
+2026-03-14 14:50:13 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:50:17 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 14:50:17 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 14:50:17 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 14:50:21 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 14:50:21 - voice.tts - DEBUG - Speaking (Cloud): Hey there! No worries, we got interrupted earlier. You were 
+2026-03-14 14:50:46 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 15:43:24 - voice.stt - DEBUG - Web text command received: David
+2026-03-14 15:43:24 - core.assistant - INFO - User input: david
+2026-03-14 15:43:31 - core.assistant - DEBUG - Prompt length: 5757 chars
+2026-03-14 15:43:31 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 15:43:34 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 15:43:34 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 15:43:34 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 15:43:38 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 15:43:38 - voice.tts - DEBUG - Speaking (Cloud): I'd love to share a tale about the stars! How about a story 
+2026-03-14 15:43:58 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 15:43:58 - voice.stt - DEBUG - Web text command received: how are you
+2026-03-14 15:43:58 - core.assistant - INFO - User input: how are you
+2026-03-14 15:43:59 - core.assistant - DEBUG - Prompt length: 5943 chars
+2026-03-14 15:43:59 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 15:44:03 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 15:44:03 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 15:44:03 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 15:44:06 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 15:44:06 - voice.tts - DEBUG - Speaking (Cloud): I'm doing great, thanks for asking! Just hanging out, ready 
+2026-03-14 15:44:21 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 15:54:27 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 15:54:28 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 15:54:28 - core.assistant - INFO - Loading plugins...
+2026-03-14 15:54:28 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 15:54:28 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 15:54:28 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 15:54:28 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 15:54:28 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 15:54:28 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 15:54:28 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 15:54:28 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 15:54:29 - voice.stt - INFO - Whisper model ready
+2026-03-14 15:54:29 - core.assistant - INFO - Whisper model ready
+2026-03-14 15:54:29 - core.assistant - INFO - David AI started successfully
+2026-03-14 15:54:29 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 16:02:51 - voice.stt - DEBUG - Web text command received: hey David what is going on
+2026-03-14 16:02:51 - core.assistant - INFO - User input: hey david what is going on
+2026-03-14 16:02:56 - core.assistant - DEBUG - Prompt length: 5842 chars
+2026-03-14 16:02:56 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:03:00 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:03:00 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 16:03:00 - core.assistant - INFO - Web search query detected
+2026-03-14 16:03:00 - tools.web_search - INFO - Searching web for: hey david what is going on
+2026-03-14 16:03:00 - tools.web_search - DEBUG - Found 3 search results
+2026-03-14 16:03:00 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:03:09 - core.cache - DEBUG - Cached response for query: User question: hey david what is going on
+
+Search 
+2026-03-14 16:03:09 - voice.tts - DEBUG - Speaking (Cloud): Hey there! So, you're wondering what's up? Well, let me tell
+2026-03-14 16:05:10 - core.assistant - INFO - Cleaning up resources...
+2026-03-14 16:05:10 - core.context - INFO - Context saved to D:\project\David Ai\Backend\context.json
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: AutomationPlugin
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: BrowserPlugin
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: CalendarPlugin
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: ClipboardPlugin
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: EmailPlugin
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: FileOpsPlugin
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: ScreenshotPlugin
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: SystemMonitorPlugin
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: Vision
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: WeatherPlugin
+2026-03-14 16:05:10 - plugins.base - INFO - Plugin unloaded: WindowControlPlugin
+2026-03-14 16:05:10 - plugins.manager - INFO - All plugins unloaded
+2026-03-14 16:10:22 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 16:10:22 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 16:10:22 - core.assistant - INFO - Loading plugins...
+2026-03-14 16:10:22 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 16:10:22 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 16:10:22 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 16:10:22 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 16:10:22 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 16:10:22 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 16:10:22 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 16:10:22 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 16:10:24 - voice.stt - INFO - Whisper model ready
+2026-03-14 16:10:24 - core.assistant - INFO - Whisper model ready
+2026-03-14 16:10:24 - core.assistant - INFO - David AI started successfully
+2026-03-14 16:10:24 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 16:15:43 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 16:15:43 - core.assistant - INFO - User input: hey david
+2026-03-14 16:15:48 - core.assistant - DEBUG - Prompt length: 5825 chars
+2026-03-14 16:15:48 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:15:51 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:15:51 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 16:15:51 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:15:55 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:15:55 - voice.tts - DEBUG - Speaking (Cloud): Sorry about the space-tale misunderstanding earlier. What's 
+2026-03-14 16:16:07 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:16:07 - voice.stt - DEBUG - Web text command received: David how are you
+2026-03-14 16:16:07 - core.assistant - INFO - User input: david how are you
+2026-03-14 16:16:08 - core.assistant - DEBUG - Prompt length: 5657 chars
+2026-03-14 16:16:08 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:16:12 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:16:12 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:16:12 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:16:15 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:16:15 - voice.tts - DEBUG - Speaking (Cloud): I'm doing great, thanks for asking! Just hanging out in cybe
+2026-03-14 16:16:27 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:16:27 - voice.stt - DEBUG - Web text command received: David kya kar rahe ho
+2026-03-14 16:16:27 - core.assistant - INFO - User input: david kya kar rahe ho
+2026-03-14 16:16:29 - core.assistant - DEBUG - Prompt length: 5766 chars
+2026-03-14 16:16:29 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:16:32 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:16:32 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:16:32 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:16:36 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:16:36 - voice.tts - DEBUG - Speaking (Cloud): I think there might be a language barrier here. "David kya k
+2026-03-14 16:16:54 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:21:40 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 16:21:40 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 16:21:40 - core.assistant - INFO - Loading plugins...
+2026-03-14 16:21:40 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 16:21:40 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 16:21:40 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 16:21:40 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 16:21:40 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 16:21:40 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 16:21:41 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-14 16:21:41 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 16:21:41 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 16:21:41 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 16:21:41 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 16:21:41 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 16:21:41 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 16:21:41 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 16:21:41 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 16:21:41 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 16:21:41 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 16:21:41 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 16:21:41 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 16:21:41 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 16:22:15 - voice.stt - INFO - Whisper model ready
+2026-03-14 16:22:15 - core.assistant - INFO - Whisper model ready
+2026-03-14 16:22:15 - core.assistant - INFO - David AI started successfully
+2026-03-14 16:22:15 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 16:23:49 - voice.stt - DEBUG - Web text command received: डेविड हेलो डेविड कैसे हो तुम
+2026-03-14 16:23:49 - core.assistant - INFO - User input: डेविड हेलो डेविड कैसे हो तुम
+2026-03-14 16:23:55 - core.assistant - DEBUG - Prompt length: 6136 chars
+2026-03-14 16:23:55 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:23:58 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:23:58 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:23:58 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:24:03 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:24:03 - voice.tts - DEBUG - Speaking (Cloud): नमस्ते दिशंक। मैं डेविड हूँ और तुम्हारा सहायक हूँ। तुम्हारी 
+2026-03-14 16:24:03 - voice.tts - DEBUG - Hindi detected, using voice: hi-IN-MadhurNeural
+2026-03-14 16:24:21 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:24:21 - voice.stt - DEBUG - Web text command received: तुम्हारी जिंदगी की कहानी पर बात करने के लिए मैं यहां हूं
+2026-03-14 16:24:21 - core.assistant - INFO - User input: तुम्हारी जिंदगी की कहानी पर बात करने के लिए मैं यहां हूं
+2026-03-14 16:24:22 - core.assistant - DEBUG - Prompt length: 6032 chars
+2026-03-14 16:24:22 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:24:26 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:24:26 - core.assistant - DEBUG - LLM raw response: {"intent": "talk"}
+2026-03-14 16:24:26 - actions.validator - DEBUG - Accepting intent for plugin handling: talk
+2026-03-14 16:24:26 - actions.executor - INFO - Executing intent: talk
+2026-03-14 16:24:26 - actions.executor - WARNING - Unknown intent type: talk
+2026-03-14 16:24:26 - voice.tts - DEBUG - Speaking (Cloud): Could you say that differently?
+2026-03-14 16:24:26 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 16:24:31 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:24:31 - voice.stt - DEBUG - Web text command received: डेविड तुम्हें कुछ पता है
+2026-03-14 16:24:31 - core.assistant - INFO - User input: डेविड तुम्हें कुछ पता है
+2026-03-14 16:24:31 - core.assistant - DEBUG - Prompt length: 6040 chars
+2026-03-14 16:24:31 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:24:35 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:24:35 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:24:35 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:24:40 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:24:40 - voice.tts - DEBUG - Speaking (Cloud): बिल्कुल! मुझे लगता है कि तुमने एक ऐसी ग्रह यात्रा की जो हमेश
+2026-03-14 16:24:40 - voice.tts - DEBUG - Hindi detected, using voice: hi-IN-MadhurNeural
+2026-03-14 16:24:56 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:24:56 - voice.stt - DEBUG - Web text command received: बिल्कुल
+2026-03-14 16:24:56 - core.assistant - INFO - User input: बिल्कुल
+2026-03-14 16:24:57 - core.assistant - DEBUG - Prompt length: 6185 chars
+2026-03-14 16:24:57 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:25:01 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:25:01 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:25:01 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:25:05 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:25:05 - voice.tts - DEBUG - Speaking (Cloud): तुम्हारा सवाल क्या है? तुम्हें कुछ पता है या फिर कोई संदेह ह
+2026-03-14 16:25:05 - voice.tts - DEBUG - Hindi detected, using voice: hi-IN-MadhurNeural
+2026-03-14 16:25:14 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:25:14 - voice.stt - DEBUG - Web text command received: डेविड रुको
+2026-03-14 16:25:14 - core.assistant - INFO - User input: डेविड रुको
+2026-03-14 16:25:14 - core.assistant - DEBUG - Prompt length: 5877 chars
+2026-03-14 16:25:14 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:25:18 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:25:18 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:25:18 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:25:22 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:25:22 - voice.tts - DEBUG - Speaking (Cloud): बिल्कुल! मैं ठहर जाऊँगा। तुम्हारे सवाल की पूरी जाँच कर लूंगा
+2026-03-14 16:25:22 - voice.tts - DEBUG - Hindi detected, using voice: hi-IN-MadhurNeural
+2026-03-14 16:25:41 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:26:59 - core.database - INFO - Database initialized at D:\project\David Ai\Backend\david_users.db
+2026-03-14 16:26:59 - core.memory - INFO - Loaded 1 long-term memories
+2026-03-14 16:26:59 - core.assistant - INFO - Loading plugins...
+2026-03-14 16:26:59 - plugins.manager - INFO - Discovered 11 plugins: ['automation', 'browser_plugin', 'calendar_plugin', 'clipboard_plugin', 'email_plugin', 'file_ops', 'screenshot_plugin', 'system_monitor', 'vision_plugin', 'weather', 'window_control']
+2026-03-14 16:26:59 - plugins.automation - INFO - Loaded 3 custom automation actions
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: AutomationPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: AutomationPlugin (intents: ['automation_action'])
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: BrowserPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: BrowserPlugin (intents: ['open_website', 'search_google', 'search_youtube', 'close_browser'])
+2026-03-14 16:26:59 - plugins.calendar_plugin - INFO - Loaded 6 events
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: CalendarPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: CalendarPlugin (intents: ['create_event', 'list_events', 'delete_event', 'create_reminder'])
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: ClipboardPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: ClipboardPlugin (intents: ['copy_to_clipboard', 'read_clipboard', 'clipboard_history', 'clear_clipboard'])
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: EmailPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: EmailPlugin (intents: ['send_email', 'read_emails', 'email_count'])
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: FileOpsPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: FileOpsPlugin (intents: ['create_folder', 'delete_file', 'move_file', 'copy_file', 'list_files', 'search_files', 'file_info'])
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: ScreenshotPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: ScreenshotPlugin (intents: ['take_screenshot'])
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: SystemMonitorPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: SystemMonitorPlugin (intents: ['cpu_usage', 'ram_usage', 'disk_usage', 'battery_status', 'list_processes', 'kill_process', 'network_status'])
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: Vision
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: Vision (intents: ['analyze_screen', 'read_screen'])
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: WeatherPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: WeatherPlugin (intents: ['weather', 'forecast'])
+2026-03-14 16:26:59 - plugins.base - INFO - Plugin loaded: WindowControlPlugin
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded plugin: WindowControlPlugin (intents: ['list_windows', 'switch_window', 'minimize_window', 'maximize_window', 'close_window'])
+2026-03-14 16:26:59 - plugins.manager - INFO - Loaded 11/11 plugins
+2026-03-14 16:26:59 - core.context - INFO - Context loaded from D:\project\David Ai\Backend\context.json
+2026-03-14 16:26:59 - core.assistant - INFO - Pre-loading Whisper model...
+2026-03-14 16:26:59 - voice.stt - INFO - Loading Whisper model...
+2026-03-14 16:27:00 - voice.stt - INFO - Whisper model ready
+2026-03-14 16:27:00 - core.assistant - INFO - Whisper model ready
+2026-03-14 16:27:00 - core.assistant - INFO - David AI started successfully
+2026-03-14 16:27:00 - core.assistant - INFO - Starting in web command-queue mode
+2026-03-14 16:28:27 - voice.stt - DEBUG - Web text command received: हेलो डेविड कैसे हो
+2026-03-14 16:28:27 - core.assistant - INFO - User input: हेलो डेविड कैसे हो
+2026-03-14 16:28:29 - core.assistant - DEBUG - Prompt length: 6126 chars
+2026-03-14 16:28:29 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:28:32 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:28:32 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:28:32 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:28:36 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:28:36 - voice.tts - DEBUG - Speaking (Cloud): Haan bhai, kaise ho? Thoda sa samay nahi mila hai, kya khush
+2026-03-14 16:28:36 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 16:28:47 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:28:48 - voice.stt - DEBUG - Web text command received: रही है
+2026-03-14 16:28:48 - core.assistant - INFO - User input: रही है
+2026-03-14 16:28:49 - core.assistant - DEBUG - Prompt length: 5877 chars
+2026-03-14 16:28:49 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:28:53 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:28:53 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:28:53 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:28:56 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:28:56 - voice.tts - DEBUG - Speaking (Cloud): Bilkul! Tab tak main tumhare saath hoon. Kya aur ki zaroorat
+2026-03-14 16:28:56 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 16:29:09 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:29:09 - voice.stt - DEBUG - Web text command received: हेलो डेविड हाउ आर यू
+2026-03-14 16:29:09 - core.assistant - INFO - User input: हेलो डेविड हाउ आर यू
+2026-03-14 16:29:10 - core.assistant - DEBUG - Prompt length: 5929 chars
+2026-03-14 16:29:10 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:29:14 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:29:14 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:29:14 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:29:18 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:29:18 - voice.tts - DEBUG - Speaking (Cloud): Hey there, Dishank! Hua toh kaafi accha! Main theek hoon, aa
+2026-03-14 16:29:18 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 16:29:41 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:31:39 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 16:31:39 - core.assistant - INFO - User input: hey david
+2026-03-14 16:31:41 - core.assistant - DEBUG - Prompt length: 6064 chars
+2026-03-14 16:31:41 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:31:44 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:31:44 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:31:44 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:31:48 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:31:48 - voice.tts - DEBUG - Speaking (Cloud): Hey there! How's it going? What's on your mind today? Want t
+2026-03-14 16:31:48 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 16:32:05 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:32:05 - voice.stt - DEBUG - Web text command received: kya kar rahe ho
+2026-03-14 16:32:05 - core.assistant - INFO - User input: kya kar rahe ho
+2026-03-14 16:32:06 - core.assistant - DEBUG - Prompt length: 5821 chars
+2026-03-14 16:32:06 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:32:10 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:32:10 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 16:32:10 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:32:14 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 16:32:14 - voice.tts - DEBUG - Speaking (Cloud): Kuch naya seekhna chahte ho ya sirf kuch gussa uthane ki zar
+2026-03-14 16:32:14 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 16:32:26 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:32:39 - voice.stt - DEBUG - Web text command received: David Chrome kholo
+2026-03-14 16:32:39 - core.assistant - INFO - User input: david chrome kholo
+2026-03-14 16:32:40 - core.assistant - DEBUG - Prompt length: 5880 chars
+2026-03-14 16:32:40 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:32:44 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:32:44 - core.assistant - DEBUG - LLM raw response: {"intent": "open_app", "app": "chrome"}
+2026-03-14 16:32:44 - actions.executor - INFO - Executing intent: open_app
+2026-03-14 16:32:44 - actions.executor - INFO - Opening application: chrome
+2026-03-14 16:32:44 - voice.tts - DEBUG - Speaking (Cloud): On it! Opening Chrome.
+2026-03-14 16:32:44 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 16:32:56 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 16:32:56 - voice.stt - DEBUG - Web text command received: David Notepad kholo
+2026-03-14 16:32:56 - core.assistant - INFO - User input: david notepad kholo
+2026-03-14 16:32:57 - core.assistant - DEBUG - Prompt length: 5825 chars
+2026-03-14 16:32:57 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 16:33:01 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 16:33:01 - core.assistant - DEBUG - LLM raw response: {"intent": "open_app", "app": "notepad"}
+2026-03-14 16:33:01 - actions.executor - INFO - Executing intent: open_app
+2026-03-14 16:33:01 - actions.executor - INFO - Opening application: notepad
+2026-03-14 16:33:01 - voice.tts - DEBUG - Speaking (Cloud): Got it! Opening Notepad.
+2026-03-14 16:33:01 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 16:33:09 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:25:42 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 23:25:42 - core.assistant - INFO - User input: hey david
+2026-03-14 23:25:50 - core.assistant - DEBUG - Prompt length: 5773 chars
+2026-03-14 23:25:50 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:25:54 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:25:54 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 23:25:54 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:25:57 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 23:25:57 - voice.tts - DEBUG - Speaking (Cloud): Hey there! What's up? Want to chat about something in partic
+2026-03-14 23:25:57 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:26:18 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:26:21 - voice.stt - DEBUG - Web text command received: how are you
+2026-03-14 23:26:21 - core.assistant - INFO - User input: how are you
+2026-03-14 23:26:22 - core.assistant - DEBUG - Prompt length: 5677 chars
+2026-03-14 23:26:22 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:26:26 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:26:26 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 23:26:26 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:26:29 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 23:26:29 - voice.tts - DEBUG - Speaking (Cloud): Bilkul! Main theek hoon, dhanyavad! (Of course! I'm fine, th
+2026-03-14 23:26:29 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:26:46 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:26:46 - voice.stt - DEBUG - Web text command received: David open Chrome
+2026-03-14 23:26:46 - core.assistant - INFO - User input: david open chrome
+2026-03-14 23:26:47 - core.assistant - DEBUG - Prompt length: 5632 chars
+2026-03-14 23:26:47 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:26:51 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:26:51 - core.assistant - DEBUG - LLM raw response: {"intent": "open_app", "app": "chrome"}
+2026-03-14 23:26:51 - actions.executor - INFO - Executing intent: open_app
+2026-03-14 23:26:51 - actions.executor - INFO - Opening application: chrome
+2026-03-14 23:26:51 - voice.tts - DEBUG - Speaking (Cloud): Got it! Opening Chrome.
+2026-03-14 23:26:51 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:26:59 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:27:01 - voice.stt - DEBUG - Web text command received: David
+2026-03-14 23:27:01 - core.assistant - INFO - User input: david
+2026-03-14 23:27:02 - core.assistant - DEBUG - Prompt length: 5544 chars
+2026-03-14 23:27:02 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:27:06 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:27:06 - core.assistant - DEBUG - LLM raw response: {
+  "intent": "none"
+}
+2026-03-14 23:27:06 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:27:10 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 23:27:10 - voice.tts - DEBUG - Speaking (Cloud): I think there's a bit of repetition going on here! You want 
+2026-03-14 23:27:10 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:27:33 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:27:33 - voice.stt - DEBUG - Web text command received: kya kar rahe ho
+2026-03-14 23:27:33 - core.assistant - INFO - User input: kya kar rahe ho
+2026-03-14 23:27:34 - core.assistant - DEBUG - Prompt length: 5706 chars
+2026-03-14 23:27:34 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:27:38 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:27:38 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 23:27:38 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:27:41 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 23:27:41 - voice.tts - DEBUG - Speaking (Cloud): Kuch naya karna hai ya sirf samay bitaana chahte ho? (Is the
+2026-03-14 23:27:41 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:27:55 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:29:18 - utils.email_auth - INFO - OTP email sent to mayanks@gmail.com
+2026-03-14 23:30:17 - utils.email_auth - INFO - OTP email sent to mayanks1312@gmail.com
+2026-03-14 23:31:00 - voice.stt - DEBUG - Web text command received: hello David
+2026-03-14 23:31:00 - core.assistant - INFO - User input: hello david
+2026-03-14 23:31:01 - core.assistant - DEBUG - Prompt length: 5791 chars
+2026-03-14 23:31:01 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:31:05 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:31:05 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 23:31:05 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:31:08 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 23:31:08 - voice.tts - DEBUG - Speaking (Cloud): Haan bhai, kaise ho? Everything okay? Want to talk about som
+2026-03-14 23:31:08 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:31:21 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:31:29 - voice.stt - DEBUG - Web text command received: kya kar rahe ho
+2026-03-14 23:31:29 - core.assistant - INFO - User input: kya kar rahe ho
+2026-03-14 23:31:31 - core.assistant - DEBUG - Prompt length: 5798 chars
+2026-03-14 23:31:31 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:31:34 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:31:34 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 23:31:34 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:31:38 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 23:31:38 - voice.tts - DEBUG - Speaking (Cloud): Kuch naya karna hai ya sirf samay bitaana chahte ho? (Is the
+2026-03-14 23:31:38 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:31:48 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:32:07 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 23:32:07 - core.assistant - INFO - User input: hey david
+2026-03-14 23:32:08 - core.assistant - DEBUG - Prompt length: 5844 chars
+2026-03-14 23:32:08 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:32:12 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:32:12 - core.assistant - DEBUG - LLM raw response: {"intent": "none"}
+2026-03-14 23:32:12 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:32:15 - core.cache - DEBUG - Cached response for query: You are David, a helpful and friendly AI assistant
+2026-03-14 23:32:15 - voice.tts - DEBUG - Speaking (Cloud): Hey, how's it going? Want to talk about something or need he
+2026-03-14 23:32:15 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:32:27 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:32:27 - voice.stt - DEBUG - Web text command received: shut down the system
+2026-03-14 23:32:27 - core.assistant - INFO - User input: shut down the system
+2026-03-14 23:32:27 - voice.tts - DEBUG - Speaking (Cloud): Do you want me to shut down now?
+2026-03-14 23:32:27 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:32:33 - core.assistant - WARNING - Shutdown request detected, awaiting confirmation
+2026-03-14 23:32:53 - voice.stt - DEBUG - Web text command received: hey David
+2026-03-14 23:32:53 - core.assistant - INFO - User input: hey david
+2026-03-14 23:32:53 - voice.tts - DEBUG - Speaking (Cloud): Cancelled.
+2026-03-14 23:32:53 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:32:55 - core.assistant - INFO - Pending action cancelled
+2026-03-14 23:32:55 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:32:55 - voice.stt - DEBUG - Web text command received: what is my battery percentage
+2026-03-14 23:32:55 - core.assistant - INFO - User input: what is my battery percentage
+2026-03-14 23:32:56 - core.assistant - DEBUG - Prompt length: 5737 chars
+2026-03-14 23:32:56 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:33:00 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:33:00 - core.assistant - DEBUG - LLM raw response: {"intent": "battery_status"}
+2026-03-14 23:33:00 - actions.validator - DEBUG - Accepting intent for plugin handling: battery_status
+2026-03-14 23:33:00 - plugins.manager - DEBUG - Executing plugin SystemMonitorPlugin for intent battery_status
+2026-03-14 23:33:00 - core.assistant - INFO - Plugin executed: {'intent': 'battery_status'}
+2026-03-14 23:33:00 - voice.tts - DEBUG - Speaking (Cloud): Battery: 34% (discharging)
+2026-03-14 23:33:00 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:33:08 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:33:10 - voice.stt - DEBUG - Web text command received: hey David what is my battery day
+2026-03-14 23:33:10 - core.assistant - INFO - User input: hey david what is my battery day
+2026-03-14 23:33:10 - core.assistant - DEBUG - Prompt length: 5663 chars
+2026-03-14 23:33:10 - ai.llm - DEBUG - LLM request attempt 1/3
+2026-03-14 23:33:14 - core.cache - DEBUG - Cached response for query: 
+You are an intent extraction engine for a voice a
+2026-03-14 23:33:14 - core.assistant - DEBUG - LLM raw response: {"intent": "battery_status"}
+2026-03-14 23:33:14 - actions.validator - DEBUG - Accepting intent for plugin handling: battery_status
+2026-03-14 23:33:14 - plugins.manager - DEBUG - Executing plugin SystemMonitorPlugin for intent battery_status
+2026-03-14 23:33:14 - core.assistant - INFO - Plugin executed: {'intent': 'battery_status'}
+2026-03-14 23:33:14 - voice.tts - DEBUG - Speaking (Cloud): Battery: 33% (discharging)
+2026-03-14 23:33:14 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:33:21 - core.context - DEBUG - Added exchange to context. History size: 10
+2026-03-14 23:33:21 - voice.stt - DEBUG - Web text command received: wait increase the volume
+2026-03-14 23:33:21 - core.assistant - INFO - User input: wait increase the volume
+2026-03-14 23:33:21 - actions.executor - INFO - Executing intent: volume_up
+2026-03-14 23:33:21 - voice.tts - DEBUG - Speaking (Cloud): Done! What else can I do?
+2026-03-14 23:33:21 - voice.tts - DEBUG - English detected, using voice: en-IN-PrabhatNeural
+2026-03-14 23:33:28 - core.context - DEBUG - Added exchange to context. History size: 10

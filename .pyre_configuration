@@ -1,0 +1,10 @@
+{
+  "source_directories": [
+    "Backend"
+  ],
+  "search_path": [
+    "Backend",
+    "david_env/Lib/site-packages",
+    "Backend/david_env/Lib/site-packages"
+  ]
+}
